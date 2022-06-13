@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "../../css/signin.css"
 import axios from "axios";
 import {BASE_URL} from "../baseUrl";
+import { Loading1 } from '../loading';
 
 export function SignIn() {
 
@@ -10,12 +11,14 @@ export function SignIn() {
         password:"",
         phoneNumber:"",
         createAccount:false,
+        loading:false,
     });
 
     const [errorState, setErrorState]= useState({
         userNameError:"",
         passwordError:"",
         phoneError:"",
+        wrongInfoError : false,
     })
 
     function toggleLoginStatus(){
@@ -36,21 +39,54 @@ export function SignIn() {
         event.preventDefault();
 
         if(validateInputs()){
+            setState({
+                ...state,
+                loading:true,
+            })
             if(state.createAccount)
             {
-                const {createAccount, ...data} = state;
-                console.log(data)
-                axios.post("https://my-json-server.typicode.com/Re-Reza/entertainment-web/users",data)
-                .then(response=>console.log(response))
+                const {createAccount, loading,...data} = state;
+                axios.post("http://localhost:4000/users",data)
+                .then(response=>{
+                    console.log(response);
+                    alert("حساب شما با موفقیت ایجاد شد")
+                    setState({
+                        ...state,
+                        loading:false,
+                    });
+                })
                 .catch(error=>console.log(error));
             }
             else{
-                console.log("here")
-                axios.get("https://my-json-server.typicode.com/Re-Reza/entertainment-web/users")
-                .then(response=>console.log(response.data))
+                axios.get("http://localhost:4000/users")
+                .then(response=>{
+                    setState({
+                        ...state,
+                        loading:false,
+                    });
+                    const user = findUser(response.data);
+                    
+                    if(user != undefined && user.password == state.password)
+                    {
+                        console.log("yes")
+                        //sth must happen (redirect to profile or home page)
+                    }
+                    else{
+                        setErrorState({
+                            ...state,
+                            wrongInfoError:true,
+                        });
+                    }
+
+                })
                 .catch(error=>console.log(error));
             }
         }
+    }
+
+    function findUser(data){
+        const foundUser = data.find(item=> item.userName === state.userName);
+        return foundUser == undefined ? undefined : foundUser;
     }
 
     function validateInputs(){
@@ -75,19 +111,30 @@ export function SignIn() {
         return Object.keys(errorObj).length == 0 ? true : false;
     }
 
-    //بوت استرپ راست به چپ
     return (
         <div className="signin-container">
+
             <div className="signin-box">
                 <form id="signin-from" onSubmit={submitHandler}>
-                    <h1 className="signin-title">{state.createAccount?"ایجاد حساب":"ورود"}</h1>
+                    <div className="signin-headContainer">
+                        <h1 className="signin-title">{state.createAccount?"ایجاد حساب":"ورود"}</h1>       
+                        {
+                            state.loading?
+                            <Loading1/>:<></>
+                        }
+                    </div>
+                    {
+                        errorState.wrongInfoError?
+                        <small className="text-danger"> نام کاربری یا رمز عبور اشتباه است <i className="fa fa-exclamation-triangle" aria-hidden="true"></i></small>
+                        :<></>
+                    }
                     <div className="form-floating signin-input-container">
-                        <input onChange={inputHandler.bind(this, "userName")} type="text" className="form-control" placeholder='نام کاربری' />
+                        <input onChange={inputHandler.bind(this, "userName")} type="text" className="form-control form-input" placeholder='نام کاربری' />
                         <label htmlFor="floatingInput">نام کاربری</label>
                         <small className="text-danger">{errorState.userNameError}</small>
                     </div>
                     <div className="form-floating signin-input-container">
-                        <input  onChange={inputHandler.bind(this, "password")} type="password" className="form-control" placeholder="رمز عبور"/>
+                        <input  onChange={inputHandler.bind(this, "password")} type="password" className="form-control form-input" placeholder="رمز عبور"/>
                         <label htmlFor="floatingInput">رمز عبور</label>
                         <small className="text-danger">{errorState.passwordError}</small>
                     </div>
@@ -100,8 +147,9 @@ export function SignIn() {
                         </div>
                         :<></>
                     }
-                    <button type='submit' className="btn btn-danger">{state.createAccount? "ایجاد حساب":"ورود"}</button>
+                    <button type='submit' className="btn signin-submit-btn ">{state.createAccount? "ایجاد حساب":"ورود"}</button>
                     <p className="signin-status-text" onClick={toggleLoginStatus}>{state.createAccount?"ورود به حساب کاربری" : "ساخت حساب جدید"}</p>
+             
                 </form>
                 
             </div>

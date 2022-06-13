@@ -5,13 +5,27 @@
     justify-content: center;
     height: 800px;
     align-content: center;
-    background-color: #a5a5a5;
+    background-image: url(../pictures/signin-background.jfif);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.signin-container::after{
+    content:"";
+    background-color: rgba(0, 0, 0, .48);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 .signin-box{
     grid-column: 3 / 5;
-    background-color: rgba(0, 0, 0, 0.735);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 4em;
     border-radius: 10px;
+    z-index: 2;
 }
 #signin-from{
     display: grid;
@@ -26,6 +40,18 @@
 .signin-status-text:hover{
     color: #e50914 !important;
 }
+.signin-submit-btn{
+    background-color:#e50914;
+    color: #fff;
+    padding:.7em !important; 
+}
+.signin-submit-btn:hover{
+    color: #fff
+}
+.signin-submit-btn:focus{
+    outline: 0px;
+    box-shadow: none ;
+}
 .signin-title{
     color:#fff;
     font-weight: 800;
@@ -33,7 +59,16 @@
 small{
     font-weight: 500;
 }
-.signin-input-container::after{
+
+.signin-headContainer{
+    display: flex;
+    justify-content: space-between;
+    padding:0 1.2em
+}
+.form-input:focus{
+    /* border: 0 !important; */
+    border:1px solid #e50914 !important;
+    outline:2px solid #e50914 !important; 
 }
 @media screen and (max-width:690px){
     .signin-container{
