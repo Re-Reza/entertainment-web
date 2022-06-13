@@ -105,11 +105,16 @@ export function SignIn() {
         {   
             errorObj.phoneError = "لطفا شماره تلفن خود را وارد کنید"
         }
-        
+    
         setErrorState(errorObj);
-        //پیدا کردن راه بهتر
         return Object.keys(errorObj).length == 0 ? true : false;
     }
+
+    axios.get("https://mockend.com/re-reza/entertainment-web/posts")
+    .then(response => {
+        console.log(response);
+    })
+    .catch(err=>console.log(err))
 
     return (
         <div className="signin-container">
