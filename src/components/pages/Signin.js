@@ -40,10 +40,13 @@ export function SignIn() {
             {
                 const {createAccount, ...data} = state;
                 console.log(data)
-                // axios.post("http://localhost:3004/users",data)
-                // .then(response=>console.log(response))
-                // .catch(error=>console.log(error));
-                axios.get("http://localhost:3004/users")
+                axios.post("https://my-json-server.typicode.com/Re-Reza/entertainment-web/users",data)
+                .then(response=>console.log(response))
+                .catch(error=>console.log(error));
+            }
+            else{
+                console.log("here")
+                axios.get("https://my-json-server.typicode.com/Re-Reza/entertainment-web/users")
                 .then(response=>console.log(response.data))
                 .catch(error=>console.log(error));
             }
@@ -100,7 +103,7 @@ export function SignIn() {
                     <button type='submit' className="btn btn-danger">{state.createAccount? "ایجاد حساب":"ورود"}</button>
                     <p className="signin-status-text" onClick={toggleLoginStatus}>{state.createAccount?"ورود به حساب کاربری" : "ساخت حساب جدید"}</p>
                 </form>
-
+                
             </div>
         </div>
     )
