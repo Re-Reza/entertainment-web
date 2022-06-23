@@ -3,8 +3,10 @@ import "../../css/signin.css"
 import axios from "axios";
 import {BASE_URL} from "../baseUrl";
 import { Loading1 } from '../loading';
+import { useNavigate } from 'react-router-dom';
+import userApi from"../../api/uerApi";
 
-export function SignIn() {
+export function SignIn () {
 
     const [state, setState] = useState({
         userName:"",
@@ -13,6 +15,8 @@ export function SignIn() {
         createAccount:false,
         loading:false,
     });
+
+    const navigate = useNavigate();
 
     const [errorState, setErrorState]= useState({
         userNameError:"",
@@ -46,7 +50,7 @@ export function SignIn() {
             if(state.createAccount)
             {
                 const {createAccount, loading,...data} = state;
-                axios.post("http://localhost:4000/users",data)
+                axios.post("users",data)
                 .then(response=>{
                     console.log(response);
                     alert("حساب شما با موفقیت ایجاد شد")
@@ -58,18 +62,22 @@ export function SignIn() {
                 .catch(error=>console.log(error));
             }
             else{
-                axios.get("http://localhost:4000/users")
+                userApi.get("users")
                 .then(response=>{
+                    // console.log(response)
                     setState({
                         ...state,
                         loading:false,
                     });
-                    const user = findUser(response.data);
-                    
-                    if(user != undefined && user.password == state.password)
+                    const foundUser = response.data.find(user=>{
+                        if(user.userName === state.userName)
+                            return user;
+                    });
+
+                    if(foundUser != undefined && foundUser.password == state.password )
                     {
-                        console.log("yes")
-                        //sth must happen (redirect to profile or home page)
+                        localStorage.setItem('userId', foundUser.id);
+                        navigate(BASE_URL+'home');
                     }
                     else{
                         setErrorState({
@@ -82,11 +90,6 @@ export function SignIn() {
                 .catch(error=>console.log(error));
             }
         }
-    }
-
-    function findUser(data){
-        const foundUser = data.find(item=> item.userName === state.userName);
-        return foundUser == undefined ? undefined : foundUser;
     }
 
     function validateInputs(){
@@ -109,12 +112,6 @@ export function SignIn() {
         setErrorState(errorObj);
         return Object.keys(errorObj).length == 0 ? true : false;
     }
-
-    axios.get("https://mockend.com/re-reza/entertainment-web/posts")
-    .then(response => {
-        console.log(response);
-    })
-    .catch(err=>console.log(err))
 
     return (
         <div className="signin-container">
@@ -153,7 +150,9 @@ export function SignIn() {
                         :<></>
                     }
                     <button type='submit' className="btn signin-submit-btn ">{state.createAccount? "ایجاد حساب":"ورود"}</button>
-                    <p className="signin-status-text" onClick={toggleLoginStatus}>{state.createAccount?"ورود به حساب کاربری" : "ساخت حساب جدید"}</p>
+                    <div>
+                        <span className="signin-status-text" onClick={toggleLoginStatus}>{state.createAccount?"ورود به حساب کاربری" : "ساخت حساب جدید"}</span>
+                    </div>
              
                 </form>
                 
@@ -161,3 +160,4 @@ export function SignIn() {
         </div>
     )
 }
+

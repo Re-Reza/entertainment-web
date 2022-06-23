@@ -1,0 +1,153 @@
+.home-mainContainer{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-row-gap: 0;
+}
+.home-headPart{
+    grid-column: 1 / -1;
+    height: 580px;
+}
+.home-sliderContainer{
+    grid-column: 1 / -1;
+    height: 530px;
+}
+.home-sliderText-container{
+    z-index: 3;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 530px;
+    width: 100%;
+    position: absolute;
+}
+
+/*-------------------------- home-popular ------------------------*/
+
+.home-popular{
+    grid-column: 1/-1;
+    background-color: #151515;
+    color:#fff;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 80px repeat(2, max-content) 80px;
+    grid-auto-flow: row;
+    grid-auto-rows: max-content;
+    grid-row-gap: 70px;
+}
+.home-popular-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.home-popular-container h3{
+    margin-bottom: 30px;
+}
+.home-popular-movies{
+    grid-column: 2/5;
+    grid-row: 2/3;
+}
+.home-popular-movie-container{
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-column-gap: .8em;
+    grid-row-gap: 19px;
+}
+.home-popular-series{
+    grid-column: 2/5;
+    grid-row: 3/4;
+}
+.popular-item-img{
+    width: 100%;
+    border-radius:10px
+}
+.popular-item-container{
+    position:relative;
+    transition:all 0.5s;
+}
+.popular-item-container:hover{
+    transform: scale(1.08)
+}
+.popular-item-container:hover .popular-item-detail{
+    opacity: 1;
+}
+.popular-item-detail{
+    position: absolute;
+    background-color:rgba(0, 0 , 0,.4);
+    width: 100%;
+    opacity: 0;
+    transition: all .5s;
+    top: 0;
+    height: 100%;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-popular-loader{
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+@media screen and (max-width: 870px){
+    .home-popular{
+        padding : 0 2.5em
+    }
+    .home-popular-movies{
+        grid-column: 1/ -1 ;
+    }
+    .home-popular-series{
+        grid-column: 1/ -1 ;
+    }
+}
+/*---------------------- feature section-----------------------*/
+.home-feature-section {
+    grid-column: 1/-1;
+    background-color: #1a1919;
+    color: #fff;
+    padding: 60px 100px;
+    display: flex;
+    flex-direction:column; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.home-feature-section-itemsContainer{
+    width: 100%;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr); 
+    grid-template-rows: max-content;
+    justify-items: center;
+    grid-column-gap: .8em;
+    margin-top: 30px;
+    align-items: start;
+    grid-row-gap: 25px;
+}
+.home-feature-section-itemsContainer h5{
+    font-size: 1.5em;
+}
+.home-feature-section-itemsContainer img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.red{
+    color: #e50914;
+}
+.yellow{
+    color :#f9ad03
+}
+@media screen and (max-width:1000px){
+    .home-feature-section{
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:770px){
+    .home-feature-section-itemsContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

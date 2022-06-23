@@ -1,17 +1,21 @@
 const initialState = {
     username:null,
     password:null,
-    phoneNumber:null
+    phoneNumber:null,
 }
 
-function UserInfoReducer(state = initialState, action) {
+function userInfoReducer(state = initialState, action) {
 
     switch(action.type) {
         case "SET_USER_INFO":
-        return {
-            ...state,
-            
-        } 
+            return action.payload;
+
+        default:
+            return state;
+
     }
 
+
 }
+
+export default userInfoReducer;

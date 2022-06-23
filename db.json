@@ -5,24 +5,951 @@
       "password": "1234",
       "phoneNumber": "09305760800",
       "id": 1
+    }
+  ],
+  "movies":{
+    "action":[
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0  ,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"1جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":10,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"2جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":15,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "family":[
+      {
+        "title":"جادوگر1",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":15,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"2جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":70,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "animation":[
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "comedy":[
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "historical":[
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "imaginary":[
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "horrific":[
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "drama":[
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":null,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":null,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "documentary":[
+      {
+      "title":"6جادوگر",
+      "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+      "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+      "comments":[],
+      "rate":20,
+      "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
     },
     {
-      "userName": "ali",
-      "password": "54321",
-      "phoneNumber": "90471",
-      "id": 2
+      "title":"7جادوگر",
+      "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+      "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+      "comments":[],
+      "rate":30,
+      "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
     },
     {
-      "userName": "javad",
-      "password": "54321",
-      "phoneNumber": "90471",
-      "id": 3
+      "title":"جادوگر",
+      "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+      "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+      "comments":[],
+      "rate":0,
+      "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+    }
+    ]
+  },
+  "series":{
+    "action":[
+      {
+        "title":"جادوگر1",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":15,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر2",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":10,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":null,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "family":[
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":null,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":18,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":null,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "animation":[
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":null,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":15,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":null,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "comedy":[
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "historical":[
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "imaginary":[
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "horrific":[
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "drama":[
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+    ],
+    "documentary":[{
+      "title":"جادوگر",
+      "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+      "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+      "comments":[],
+      "rate":0,
+      "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
     },
     {
-      "userName": "javad",
-      "password": "54321",
-      "phoneNumber": "984",
-      "id": 4
+      "title":"جادوگر",
+      "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+      "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+      "comments":[],
+      "rate":0,
+      "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+    },
+    {
+      "title":"جادوگر",
+      "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+      "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+      "comments":[],
+      "rate":0,
+      "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
     }
   ]
+},
+  "content":{
+    "movies":{
+      "action":[
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0  ,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"1جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":10,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"2جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":15,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        }
+      ],
+      "family":[
+        {
+          "title":"جادوگر1",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":15,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"2جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":70,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        }
+      ],
+      "animation":[
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        }
+      ],
+      "comedy":[
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        }
+      ],
+      "historical":[
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        }
+      ],
+      "imaginary":[
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        }
+      ],
+      "horrific":[
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        }
+      ],
+      "drama":[
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":null,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":null,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        }
+      ],
+      "documentary":[
+        {
+        "title":"6جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":20,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"7جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":30,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      },
+      {
+        "title":"جادوگر",
+        "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+        "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+        "comments":[],
+        "rate":0,
+        "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+      }
+      ]
+    },
+
+    "series":{
+        "action":[
+          {
+            "title":"جادوگر1",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":15,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر2",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":10,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":null,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          }
+        ],
+        "family":[
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":null,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":18,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":null,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          }
+        ],
+        "animation":[
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":null,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":15,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":null,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          }
+        ],
+        "comedy":[
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          }
+        ],
+        "historical":[
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          }
+        ],
+        "imaginary":[
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          }
+        ],
+        "horrific":[
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          }
+        ],
+        "drama":[
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          },
+          {
+            "title":"جادوگر",
+            "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+            "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+            "comments":[],
+            "rate":0,
+            "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+          }
+        ],
+        "documentary":[{
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        },
+        {
+          "title":"جادوگر",
+          "coverPic":"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
+          "description":"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
+          "comments":[],
+          "rate":0,
+          "movieUrl":"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+        }
+      ]
+    }
+  }
 }

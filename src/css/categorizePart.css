@@ -1,0 +1,53 @@
+.CategorizedPart{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color:#151515;
+    padding:1em;grid-column-gap: 3em;
+}
+
+/* -------------------dropdown */
+.DropDown{
+    position:relative;
+    color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+.DropDown-select{
+    padding:.5em 1em;
+    color: #fff;
+    background-color: #151515;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.DropDown-options{
+    padding: 1em;
+    position:absolute;
+    display: grid;
+    grid-template-columns:160px;
+    grid-template-rows: repeat(5,max-content);
+    grid-auto-flow:column;
+    grid-auto-columns: 160px;
+    /* grid-row-gap: 12px; */
+    grid-column-gap: .8em;
+    justify-items: start;
+    border-radius: 8px;
+    background-color:#000;
+    transition:all .5s;
+    visibility:hidden;
+    opacity: 0;
+}
+.DropDown-options li{
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition:all .3s;
+}
+.DropDown-options li:hover{
+    color: #f9ad03;
+}
+.show{
+    visibility:visible;
+    opacity: 1;
+    transform: translateY(20px);
+}
