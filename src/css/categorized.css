@@ -1,0 +1,87 @@
+.categoryContent-movieTypes-Container{
+    background-color: #151515;
+    display:grid;
+    grid-template-rows: repeat(9, max-content);
+    grid-row-gap: 3em;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 1em 2em;
+    color: #fff;
+}
+.categoryContent-TypeContainer{
+    grid-column: 1/-1;
+    display:flex;
+    flex-direction: column;
+}
+.category-TypeContainer-title{
+    transition: all 0.5s;
+    font-size:1.8em;
+    margin-bottom: .7em;
+}
+.categorized-loadingContainer{
+    width: 100%;
+    height: 80vh;
+    background-color: #151515;
+    display:flex; 
+    justify-content:center;
+    align-items:center;
+}
+.categoryContent-TypeContainer-movies{
+    display: grid;
+    grid-template-rows:250px;
+    grid-auto-rows: 250px;
+    grid-column-gap: 1.2em;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    justify-items: flex-start;
+}
+.categoryContent-movieItem{
+    display: flex;
+    height:100%;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; 
+    align-items: center;
+    transition: all 0.4s;
+}
+.categoryContent-movieItem:hover{
+    transform:scale(1.06)
+}
+.categoryContent-movieItem:hover .categoryContent-movieInfo{
+    opacity: 1;
+    visibility: visible;
+}
+.categoryContent-movieItem img{
+    width: 100%;
+    height:205px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.categoryContent-movieItem-imgContainer{
+    position: relative;
+}
+.categoryContent-movieInfo{
+    position: absolute;   
+    opacity: 0;
+    visibility:hidden; 
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    top: 0;
+    background-color:rgba(0, 0, 0, .4);
+    transition: all 0.4s;
+}
+.categoryContent-movieInfo .rateContainer{
+    background-color:rgba(255, 255, 255, .3);
+    border-radius: 10px;
+    padding: 1px 10px;
+}
+.categoryContent-movieInfo i.fa{
+    margin-left: 12px;
+}
+.categoryContent-movieInfo-item{
+    margin: 2px;
+}

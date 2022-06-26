@@ -23,13 +23,13 @@
 }
 .DropDown-options{
     padding: 1em;
+    z-index: 3;
     position:absolute;
     display: grid;
     grid-template-columns:160px;
     grid-template-rows: repeat(5,max-content);
     grid-auto-flow:column;
     grid-auto-columns: 160px;
-    /* grid-row-gap: 12px; */
     grid-column-gap: .8em;
     justify-items: start;
     border-radius: 8px;

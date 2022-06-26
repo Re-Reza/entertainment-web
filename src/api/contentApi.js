@@ -1,13 +1,31 @@
 import axios from "axios";
 
 const contentApi = axios.create({
-    baseURL:"http://localhost:4000/",
+    baseURL:"https://entertainment-web-db33a-default-rtdb.firebaseio.com/",
     timeout:10000
 });
 
 contentApi.interceptors.response.use( function(response) {
-    //باید دیتا را به شکل یک ابجکت که یک کلید ان لیست فیم است و یک کلید ان لیست سریال است بازگرداند
-    return response;
+    let data={};  
+    Object.entries(response.data).forEach(item=>{
+        let items={};
+        Object.entries(item[1]).forEach(movieType=>{
+            items={
+                ...items,
+                [movieType[0]]: Object.entries(movieType[1]).map(movie=>{
+                    return{
+                        id:movie[0],
+                        ...movie[1]
+                    }
+                })
+            }
+        })
+        data={
+            ...data,
+            [item[0]] : items
+        }
+    })
+    return data;
 },
 function(error){
     return Promise.reject(error);

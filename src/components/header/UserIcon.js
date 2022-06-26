@@ -24,12 +24,20 @@ function UserIcon(props){
         const userId = localStorage.getItem('userId');
         if(userId != null && userId != undefined) 
         {
-            axios.get(`users/${userId}`)
+            axios.get(`https://entertainment-web-db33a-default-rtdb.firebaseio.com/users/${userId}.json`)
             .then(response => {
                 setUserInfo(response.data)
             }).catch(err=>console.log(err));
         }
     }, []);
+
+    function exitUser(){
+        setUserInfo({
+            userName:null, 
+            phoneNumber:null,
+            password:null,
+        })
+    }
 
     return(
         <div className="user-icon-option-container">
@@ -64,8 +72,8 @@ function UserIcon(props){
                     <li className="header-link-container">
                         <Link to="/">خروج از حساب کاربری</Link>   
                     </li>
-                    <li className="header-link-container">
-                        <Link to="/">
+                    <li onClick={exitUser} className="header-link-container">
+                        <Link to={BASE_URL+"signin"}>
                             <span className="user-info-box-exit">
                                 <i className="text-danger fa fa-sign-out" aria-hidden="true"></i>
                                 خروج از حساب کاربری     

@@ -12,7 +12,7 @@ export function FeatureSection() {
             <h3 className="mb-4"><span className="red">سینما</span> <span className="yellow">آنلاین</span> هر لحظه با شماست</h3>
             <p>با خرید اشتراک هر لحظه در هر مکان از فیلم دیدن لذت ببرید</p>
 
-            <article class="home-feature-section-itemsContainer">
+            <article className="home-feature-section-itemsContainer">
                 <div>
                     <img src={img3} alt="feature item image"/>
                     <h5>پشتیبانی ۲۴ ساعته</h5>

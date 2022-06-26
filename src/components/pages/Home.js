@@ -40,9 +40,8 @@ const ConnectedComponent = connect(mapStateToProps , mapDispatchToProps)
     })
 
     useEffect(()=>{
-        contentApi.get('content').then(response => {
-            console.log(response.data);
-            setContent(response.data);
+        contentApi.get('content.json').then(response => {
+            setContent(response);
             setState({
                 ...state,
                 popularLoading : false
@@ -59,9 +58,7 @@ const ConnectedComponent = connect(mapStateToProps , mapDispatchToProps)
             item[1].forEach(movie=>{
                 if(movie.rate> mostPopular.rate)
                     mostPopular = movie;
-            })
-            console.log(mostPopular);
-
+            });
             return mostPopular;
         });
         return popular;
@@ -70,14 +67,13 @@ const ConnectedComponent = connect(mapStateToProps , mapDispatchToProps)
     function filterPopularSeries(){
         const popular = Object.entries(series).map(item=>{
             let mostPopular = item[1][0];
-   
             item[1].forEach(movie=>{
                 if(movie.rate> mostPopular.rate)
                     mostPopular = movie;
-            })
+            });
             return mostPopular;
         });
-        return  popular;
+        return popular;
     }
 
     return (

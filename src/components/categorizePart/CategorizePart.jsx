@@ -2,7 +2,7 @@ import React from 'react';
 import DropDown from "./DropDown";
 import "../../css/categorizePart.css";
 
-function CategorizedPart(props) {
+export function CategorizedPart(props) {
 
 
     const submitChanges = () =>{
@@ -37,4 +37,3 @@ function CategorizedPart(props) {
     )
 }
 
-export default CategorizedPart;

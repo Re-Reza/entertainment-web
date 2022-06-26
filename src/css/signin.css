@@ -42,13 +42,11 @@
     color: #e50914 !important;
 }
 .signin-submit-btn{
-    background-color:#e50914;
-    color: #fff;
+    background-color:#e50914 !important;
+    color: #fff !important;
     padding:.7em !important; 
 }
-.signin-submit-btn:hover{
-    color: #fff
-}
+
 .signin-submit-btn:focus{
     outline: 0px;
     box-shadow: none ;

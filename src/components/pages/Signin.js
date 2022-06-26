@@ -50,7 +50,7 @@ export function SignIn () {
             if(state.createAccount)
             {
                 const {createAccount, loading,...data} = state;
-                axios.post("users",data)
+                axios.post("https://entertainment-web-db33a-default-rtdb.firebaseio.com/users.json",data)
                 .then(response=>{
                     console.log(response);
                     alert("حساب شما با موفقیت ایجاد شد")
@@ -62,14 +62,14 @@ export function SignIn () {
                 .catch(error=>console.log(error));
             }
             else{
-                userApi.get("users")
+                userApi.get("users.json")
                 .then(response=>{
-                    // console.log(response)
+                    console.log(response)
                     setState({
                         ...state,
                         loading:false,
                     });
-                    const foundUser = response.data.find(user=>{
+                    const foundUser = response.find(user=>{
                         if(user.userName === state.userName)
                             return user;
                     });
@@ -149,7 +149,7 @@ export function SignIn () {
                         </div>
                         :<></>
                     }
-                    <button type='submit' className="btn signin-submit-btn ">{state.createAccount? "ایجاد حساب":"ورود"}</button>
+                    <button type='submit' className="btn signin-submit-btn">{state.createAccount? "ایجاد حساب":"ورود"}</button>
                     <div>
                         <span className="signin-status-text" onClick={toggleLoginStatus}>{state.createAccount?"ورود به حساب کاربری" : "ساخت حساب جدید"}</span>
                     </div>
