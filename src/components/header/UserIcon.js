@@ -26,7 +26,10 @@ function UserIcon(props){
         {
             axios.get(`https://entertainment-web-db33a-default-rtdb.firebaseio.com/users/${userId}.json`)
             .then(response => {
-                setUserInfo(response.data)
+                setUserInfo({
+                    ...response.data,
+                    userId: userId
+                });
             }).catch(err=>console.log(err));
         }
     }, []);

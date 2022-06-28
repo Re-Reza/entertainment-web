@@ -1,29 +1,64 @@
 import React, {useState, useEffect} from 'react';
 import {useParams} from "react-router-dom";
 import axios from "axios";
+import {connect} from "react-redux";
 
-import {convertToPersian} from "../../converToPersian";
+
+import {Comment, CreateComment} from "../moviePage-parts"
+import {convertToPersian, convertNumberToPersian} from "../../converToPersian";
+import {addToFavorites} from "../../statemanagement/actions/userInfoActions";
+import {Loading3} from "../loading";
+import moviePageApi from "../../api/moviePageApi";
+
 import "../../css/MoviePage.css";
 
 
-export const MoviePage = () =>{
+function mapStateToProps(state) {
+    return{
+        username: state.userState.userName,
+        password: state.userState.password,
+        phoneNumber: state.userState.phoneNumber,
+        userId: state.userState.userId 
+    }
+}
 
+function mapDispatchToProps(dispatch) {
+    return{
+        addToFavoriteList : (newItem) =>{
+            dispatch(addToFavorites(newItem))
+        } 
+    }
+}
+
+const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)((props) =>{
     const [ state, setState] = useState({
         title:null,
         description:null,
         coverPic:null,
         rate:null,
         movieUrl: null,
-        isLoading:true,
+        comments:[],
+        isLoading:true
     });
-    const { category, type, movieId } = useParams(); 
 
+    const { category, type, movieId } = useParams(); 
+    const { title, description, coverPic, rate, movieUrl, isLoading} = state;
+    const {username, userId, addToFavoriteList} = props;
+    
+    //برسی اینگه اگر کاربر این فیلم را لایک کرده دیگر نتوانتد لایک یا دیس لایک کند برای افزودن به علاقه مندی هم همینطور
     useEffect(()=>{
-        console.log(`https://entertainment-web-db33a-default-rtdb.firebaseio.com/${category}/${type}/${movieId}.json`)
-        axios.get(`https://entertainment-web-db33a-default-rtdb.firebaseio.com/content/${category}/${type}/${movieId}.json`)
+        moviePageApi.get(`content/${category}/${type}/${movieId}.json`)
         .then(response=>{
+            const comments = response.data.comments != undefined && response.data.comments != null ?
+            Object.entries(response.data.comments).map(item=>{
+                return{
+                    ...item[1],
+                    id:item[0]
+                }
+            }) : [];
             setState({
                 ...response.data,
+                comments:comments || [],
                 isLoading:false
             });
         }).catch(error=>{
@@ -31,31 +66,107 @@ export const MoviePage = () =>{
         })
     },[]);
 
-    const { title, description, coverPic, rate, movieUrl, isLoading} = state;
+    function addToComments(newComment){
+        setState({
+            ...state,
+            comments: state.comments.concat(newComment)
+        });
+    }
 
+    function sendToUserFavorites(){
+        console.log("here");
+        const favoriteItem = {title, coverPic, category, type, movieId}
+        moviePageApi.post(`users/${userId}/favoriteList.json`,favoriteItem)
+        .then(response=>{
+            console.log(response)
+            addToFavoriteList(favoriteItem);
+        }).catch(err=>console.log(err));
+
+    }
+
+    function likeAndUnlike(value)
+    {
+        const {isLoading, ...newData} = state;
+        newData.rate = state.rate + value;
+        moviePageApi.put(`content/${category}/${type}/${movieId}.json`, newData)
+        .then(response=>{
+            setState({
+                ...state,
+                rate: state.rate+value
+            });
+        }).catch(error => console.log(error));
+    }
+
+    // قرار دادن فیلتر مات شدن پس زمینه برای فایرفاکس
     return(
         <div className="MoviePage-container">
-            <section className="MoviePage-head">
-                <div className="MoviePage-head-imgContainer">
-                    <img src={coverPic} alt={title} />
-                </div>
-                <div className="MoviePage-head-infoContainer">
-                    <h5>{title}</h5>
-                    <div >
-                        <span className="MoviePage-head-rate">
-                            <span><i className="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                            <span>{rate} %</span>
-                        </span>
+            <section className="MoviePage-container-headSection">
+                {
+                    state.isLoading?
+                    <div className="MoviePage-loadingContainer">
+                        <Loading3/>
                     </div>
-                    <p>{description}</p>
-                    <div>
-                        <span className="MoviePage-tag rounded-pill">{convertToPersian(category)}</span>
-                        &nbsp;
-                        <span className="MoviePage-tag rounded-pill">{convertToPersian(type)}</span>
+                    :
+                    <article className="MoviePage-head">
+                    <div className="MoviePage-head-imgContainer">
+                        <img src={coverPic} alt={title} />
                     </div>
-                </div>
-            </section>    
+                    <div className="MoviePage-head-infoContainer">
+                        <h5>{title}</h5>
+                        <div >
+                            <span className="MoviePage-head-rate">
+                                <span><i className="fa fa-thumbs-up" aria-hidden="true"></i></span>
+                                <span>{parseInt(rate)>=0?convertNumberToPersian(rate)+"+":convertNumberToPersian(Math.abs(rate))+"-"}</span>
+                            </span>
+                        </div>
+                        <p>{description}</p>
+                        <div>
+                            <span className="MoviePage-tag rounded-pill">{convertToPersian(category)}</span>
+                            &nbsp;
+                            <span className="MoviePage-tag rounded-pill">{convertToPersian(type)}</span>
+                        </div>
+                    </div>
+                </article>
+                }
 
+                <article className="MoviePage-head-options-container">
+
+                    <span onClick={sendToUserFavorites} className="MoviePage-head-option bookmark">
+                        <i className="fa fa-bookmark-o" aria-hidden="true"></i>
+                        نشان کردن
+                    </span>
+                    <span onClick={likeAndUnlike.bind(this, 1)} className="like rate-option MoviePage-head-option">
+                        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
+                    </span>
+                    <span onClick={likeAndUnlike.bind(this, -1)} className="unlike rate-option MoviePage-head-option">
+                        <i className="fa fa-thumbs-down" aria-hidden="true"></i>
+                    </span>
+
+                </article>   
+                
+            </section>
+
+            <section className="Movie-page-commentPart">
+                <article className="Movie-page-commentContainer">
+                    <div className="commentContainer-createComment">
+                        <CreateComment addToComments={addToComments} username={username} moviePath={{category, type, movieId}}/>
+                    </div>
+                    
+                    <div className="comments-container">
+                        <h3 className='comments-container-tile'>نظرات</h3>
+                        <div>
+                        {
+                            state.comments.map((comment, index)=><Comment comment={comment} key={index} />)
+                        }
+                        </div>
+                    </div>
+                </article>
+            </section>
         </div>
     )
+})
+
+
+export const MoviePage = ()=> {
+    return <ConnectedComponent/>
 }

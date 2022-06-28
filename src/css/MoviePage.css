@@ -1,30 +1,50 @@
+.MoviePage-container-headSection{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(54deg, rgba(0,0,0,0.23883056640625) 0%, rgba(0,0,0,0.45171572046787467) 0%),url(../pictures/background-home.jfif);
+    padding:2em 5em;
+    position: relative;
+}
+.MoviePage-container-headSection::after{
+    content:"dfhdfhgghdhgf";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    backdrop-filter: blur(2px);
+    /* -moz-backdrop-filter: blur(2px); */
+    /* filter: blur(100px); */
+    /* background-color:rgba(255, 255, 255, .3 ) */
+}
 .MoviePage-head{
     width: 100%;
-    background-image: linear-gradient(54deg, rgba(0,0,0,0.23883056640625) 0%, rgba(0,0,0,0.45171572046787467) 0%),url(../pictures/background-home.jfif);
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
     color: #fff;
     display: flex;
+    position: relative;
+    z-index: 2;
     align-items: center;
-    padding:2em 4em;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 1.3em;
 }
 .MoviePage-head-imgContainer{
     width: 30%;
     margin-left: 2.4em;
-
 }
 .MoviePage-head-imgContainer img{
     width:100%;
     height:100%;
     object-fit: contain;
     border-radius: 10px;
-
 }
 .MoviePage-head-infoContainer{
     width: 40%;
     display:grid;
-    /* grid-template-columns: repeat(5,1fr); */
     grid-template-rows: repeat(4,max-content);
     grid-row-gap: 20px;
 }
@@ -34,13 +54,133 @@
     width: 80px;
     justify-content:space-between;
     align-items:center;
-    /* display: inline-block; */
     padding: 0px 12px;
-    border-radius: 15px;
-    
+    border-radius: 15px;   
+}
+.MoviePage-loadingContainer{
+    position:relative;
+    z-index:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30vh;
 }
 .MoviePage-tag{
     background-color:#4d4d4d;
     margin-right:10px;
     padding:3px 15px;
 }
+.MoviePage-head-options-container{
+    display: flex;
+    margin-top: 1.3em;
+    position: relative;
+    z-index: 2;
+}
+.MoviePage-head-option{
+    background-color:rgba(255, 255, 255, .4);
+    margin-left: 20px;
+    /* padding: */
+    cursor: pointer;
+    color: #fff;
+}
+.MoviePage-head-option i.fa{
+    color: #fff;
+}
+.unlike{
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+.unlike:hover{
+    background-color:#e50914;
+}
+.like{
+    transition: all 0.5s;
+}
+.like:hover{
+    background-color:#157347;
+}
+.rate-option{
+    padding: 10px;
+    clip-path: circle(44% at 50% 48%);
+}
+.bookmark{
+    padding: 2px 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: all .5s;
+}
+.bookmark i.fa{
+    margin-left: 6px;
+}
+.bookmark:hover{
+    background-color:#e50914;
+    /* background-color: #f9ad03; */
+}
+.bookmark:hover i.fa{
+    /* color:#e50914; */
+    color:#f9ad03
+}
+/* ----------------------- comment --------------------------*/
+.Movie-page-commentPart{
+    padding:3.5em ;
+    background-color: #151515;
+}
+.Movie-page-commentContainer{
+    display: grid;
+    grid-template-rows: 150px max-content;
+    grid-template-columns: repeat(5, 1fr);
+}
+.commentContainer-createComment{
+    grid-column: 2/-2;
+}
+#form-createComment{
+    height: 100%;
+    padding-bottom: 1.2em;
+    border-bottom: 1px solid #a5a5a5
+}
+#form-createComment textarea{
+    width:100%;
+    height: 50%;
+    background-color:rgba(255, 255, 255, .1);
+    border-radius: 10px ;
+    resize: none; 
+    padding: .7em;
+    transition: all .4s;
+    margin-bottom: .7em;
+    color: #fff;
+}  
+#form-createComment textarea:focus{
+    outline:none;
+    background-color: #fff;
+    color:#000;
+} 
+.comments-container{
+    grid-column: 2/-2;
+    margin-top:3em;
+
+}
+.comments-container-tile{
+    margin-bottom: 1em;
+    color: #fff;
+}
+.commentContainer{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    border-bottom: 2px solid #979696;
+    padding: .2em 1em;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: #151515;
+}
+.commentContainer p{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.createComment-btnContainer{
+    display: flex;
+    align-items: center;
+}
+

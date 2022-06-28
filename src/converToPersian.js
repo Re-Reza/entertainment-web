@@ -38,6 +38,27 @@ export function convertToPersian(value){
     }
 }
 
+const numbers = {
+    0: "۰", 
+    1: "۱", 
+    2: "۲", 
+    3: "۳", 
+    4: "۴", 
+    5: "۵", 
+    6: "۶", 
+    7: "۷", 
+    8: "۸", 
+    9: "۹",
+}
+
 export function convertNumberToPersian(number){
-    
+    number = number.toString().split(""); //split makes an array
+    let persianNumber = "";
+    for (let i = 0; i < number.length; i++) {
+        number[i] = numbers[number[i]];
+    }
+    for (let i = 0; i < number.length; i++) {
+            persianNumber += number[i];
+    }
+    return persianNumber;
 }
