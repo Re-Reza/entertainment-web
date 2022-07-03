@@ -1,19 +1,18 @@
 import React,{Component} from "react";
-import "../../css/header.css"
 import {Link} from "react-router-dom";
 import { BASE_URL } from "../baseUrl";
-
 import UserIcon from "./UserIcon";
+
+import "../../css/header.css"
+
+
 
 class Header extends Component {
 
-    componentDidMount() {
-        //here get 
-        // console.log(useLocation()) //can not be call it is a hook
-    }
-    //link of this component must have to url and UserIcon too
-
+    //میتوان لینک ها رادر استیت ریخت و با کمک کامپوننت انها را اورد به این شکل که می توان انگلیسی لینک را داد و فارسی انرا با کمک متدی که خودمان نوشتیم اورد
+    
     render(){
+
         return(
             <header className="header-container">    
                 <h1 className="header-title">سینما <span>آنلاین</span></h1>
@@ -24,31 +23,31 @@ class Header extends Component {
                     </div>
                     <ul className="header-category-dropdown">
                         <li className="header-link-container">
-                            <Link to={"/"}>اکشن</Link>
+                            <Link to= { BASE_URL+"movies/action"}>اکشن</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">علمی تخیلی</Link>
+                            <Link to= {BASE_URL+"movies/imaginary"}>علمی تخیلی</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">خانوادگی</Link>
+                            <Link to= {BASE_URL+"movies/family"}>خانوادگی</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">عاشقانه</Link>
+                            <Link to= {BASE_URL+"movies/drama"}>عاشقانه</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">انیمیشن</Link>
+                            <Link to= {BASE_URL+"movies/animation"}>انیمیشن</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">مستند</Link>
+                            <Link to= {BASE_URL+"movies/documentary"}>مستند</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">کمدی</Link>
+                            <Link to= {BASE_URL+"movies/comedy"}>کمدی</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">وحشت</Link>
+                            <Link to= {BASE_URL+"movies/horrific"}>وحشت</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">تاریخی</Link>
+                            <Link to= {BASE_URL+"movies/historical"}>تاریخی</Link>
                         </li>
                     </ul>
                </div>
@@ -61,31 +60,31 @@ class Header extends Component {
                     </div>
                     <ul className="header-category-dropdown">
                         <li className="header-link-container">
-                            <Link to="">اکشن</Link>
+                            <Link to={BASE_URL+"series/action"}>اکشن</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">علمی تخیلی</Link>
+                            <Link to= {BASE_URL+"series/imaginary"}>علمی تخیلی</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">خانوادگی</Link>
+                            <Link to= {BASE_URL+"series/family"}>خانوادگی</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">عاشقانه</Link>
+                            <Link to= {BASE_URL+"series/drama"}>عاشقانه</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">انیمیشن</Link>
+                            <Link to= {BASE_URL+"series/animation"}>انیمیشن</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">مستند</Link>
+                            <Link to= {BASE_URL+"series/documentary"}>مستند</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">کمدی</Link>
+                            <Link to= {BASE_URL+"series/comedy"}>کمدی</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">وحشت</Link>
+                            <Link to= {BASE_URL+"series/horrific"}>وحشت</Link>
                         </li>
                         <li className="header-link-container">
-                            <Link to="">تاریخی</Link>
+                            <Link to= {BASE_URL+"series/historical"}>تاریخی</Link>
                         </li>
                     </ul>
                </div>
@@ -96,7 +95,13 @@ class Header extends Component {
                </div>
 
                <div className="header-user-options">
-                    <button className="btn btn-success"><i className="fa fa-shopping-cart" aria-hidden="true"></i> خرید اشتراک</button>
+                    {
+                        window.location.pathname == "/" ?
+                        <></>:                   
+                        <div>
+                            <Link to={BASE_URL+"home"}><i className="fa fa-home" aria-hidden="true"></i> صفحه اصلی</Link>
+                        </div>
+                    }
                     <UserIcon/>
                </div>
 

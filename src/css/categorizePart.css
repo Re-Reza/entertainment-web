@@ -1,11 +1,16 @@
 .CategorizedPart{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    background-color:#151515;
-    padding:1em;grid-column-gap: 3em;
+    background-color:#323232;
+    padding:1em;
+    grid-column-gap: 3em;
+    grid-auto-rows: max-content;
+    grid-auto-rows: max-content;
+    grid-row-gap: 1.2em;
+    margin-bottom: 1.2em;
 }
 
-/* -------------------dropdown */
+/* -------------------dropdown -----------------------------------*/
 .DropDown{
     position:relative;
     color: #fff;
@@ -15,7 +20,7 @@
 .DropDown-select{
     padding:.5em 1em;
     color: #fff;
-    background-color: #151515;
+    background-color: #323232;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +44,7 @@
     opacity: 0;
 }
 .DropDown-options li{
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     cursor: pointer;
     transition:all .3s;
 }
@@ -50,4 +55,20 @@
     visibility:visible;
     opacity: 1;
     transform: translateY(20px);
+}
+
+@media screen and (max-width:770px){
+    .CategorizedPart{
+        grid-column-gap: 1em;
+        padding:.8em;
+    }
+}
+@media screen and (max-width:600px){
+    .CategorizedPart{
+        grid-template-columns: 1fr;
+    }
+    .DropDown-options{
+        width:100%;
+        grid-template-rows: repeat(9, max-content);
+    }
 }

@@ -79,7 +79,6 @@
 }
 .header-search-container{
     display:flex;
-    align-items:baseline
 }
 .header-search-btn i.fa{
     font-size: 15px;
@@ -92,6 +91,8 @@
 .header-user-options{
     display: flex;
     justify-content: space-around;
+    color: #fff;
+    align-items: center;
 }
 /* -------------------------------user Icon-------------------- */
 .user-icon-option-container{
@@ -145,13 +146,15 @@
 }
 .user-info-box-exit{
     display:flex;
-    justify-content: center
+    justify-content: center;
+    cursor: pointer;
 }
 .user-info-box-exit i.fa{
     font-size:1.2em;
     margin-left: 4px;
     align-self:flex-end;
 }
+
 @media screen and (max-width:1001px){
     .header-container{
         grid-row-gap: 13px;

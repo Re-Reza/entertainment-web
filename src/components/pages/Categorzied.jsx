@@ -1,78 +1,39 @@
-import React, { useState, useEffect,  useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useParams } from 'react-router';
 import categorizedContent from "../../api/categorizedApi";
 import { CategorizedPart, TypeContainer } from "../categorizePart";
-import { connect } from "react-redux";
 import "../../css/categorized.css";
 import { Loading2 } from '../loading/Loading2';
 import { Loading1 } from '../loading';
-import {convertToPersian} from '../../converToPersian';
+import { convertToPersian } from '../../converToPersian';
 
-function mapStateToProps(state) {
-    return {
-        category: state.categorizeState.category,
-        type: state.categorizeState.category,
-        submit: state.categorizeState.submit
-    }
-}
 
-const ConnectedComponent = connect(mapStateToProps)(function (props) {
+export function Categorized () {
 
     const [state, setState] = useState({
         movieTypes: [],
         loading: true,
     });
-    const isMounted = useRef(false); 
-    const params = useParams();
-    const { category, type, submit, dispatch } = props;
-    //so many bugs!
+
+    const {category} = useParams();
     useEffect(()=>{
-        if(isMounted.current == false){
-            dispatch({
-                type: "SET_CATEGORY",
-                payload: {
-                    name: convertToPersian(params.category),
-                    value: params.category
-                }
-            });
-            sendRequest(params.category);
-            isMounted.current=true;
-        }
-    }, []);
-
-    useEffect(() => {
-        if(isMounted.current == true)
-        {
-            console.log("object")
-            if(category!=null){
-                console.log("sending");
-                sendRequest(category.value)
-            }
-        }
-        
-    }, [params.category, submit]);
-
-    function sendRequest(value){
-        console.log(value)
-        categorizedContent.get(value + ".json").then(response => {
+        categorizedContent.get( category+ ".json").then(response => {
             setState(previousState => ({
                 ...previousState,
                 movieTypes: response,
                 loading: false,
             }))
-        }).catch(error => console.log(error)); 
-
-    }
+        }).catch(error => console.log(error));
+    }, [category])
 
     return (
         <div className="categoryContent-page">
             <section className="categoryContent-categorizedPart">
-                <CategorizedPart dispatch={dispatch} />
-                {/* <Loading1/> */}
+                <CategorizedPart />
             </section>
 
             {/* اضافه کردن لودینگ برای ه نوع فیلم یعنی 9 لودینگ یا قرار دادن لودینگ برای هر فیلم ! */}
-
+            <h3 className="categoryContent-categoryTitle"><span>{convertToPersian(category)}</span></h3>
             {
                 state.loading ?
                     <div className="categorized-loadingContainer">
@@ -87,15 +48,9 @@ const ConnectedComponent = connect(mapStateToProps)(function (props) {
             }
         </div>
     )
-})
-
-export function Categorized() {
-    return (
-        <ConnectedComponent />
-    )
 }
 
-    //to add new data
+    //to add new data to database
     // useEffect(()=>{
     //     categorizedContent.post("movies/historical.json",{
     //         title:"جادوگر",

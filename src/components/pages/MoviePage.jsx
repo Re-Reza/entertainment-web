@@ -10,8 +10,7 @@ import {addToFavorites} from "../../statemanagement/actions/userInfoActions";
 import {Loading3} from "../loading";
 import moviePageApi from "../../api/moviePageApi";
 
-import "../../css/MoviePage.css";
-
+import "../../css/moviePage.css";
 
 function mapStateToProps(state) {
     return{
@@ -44,11 +43,13 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)((props) 
     const { category, type, movieId } = useParams(); 
     const { title, description, coverPic, rate, movieUrl, isLoading} = state;
     const {username, userId, addToFavoriteList} = props;
-    
+
     //برسی اینگه اگر کاربر این فیلم را لایک کرده دیگر نتوانتد لایک یا دیس لایک کند برای افزودن به علاقه مندی هم همینطور
+    //رسپانیو کردن و درست کردن تنظیمات پکیج دات جی سان
     useEffect(()=>{
         moviePageApi.get(`content/${category}/${type}/${movieId}.json`)
         .then(response=>{
+
             const comments = response.data.comments != undefined && response.data.comments != null ?
             Object.entries(response.data.comments).map(item=>{
                 return{
@@ -56,6 +57,7 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)((props) 
                     id:item[0]
                 }
             }) : [];
+  
             setState({
                 ...response.data,
                 comments:comments || [],
@@ -74,7 +76,6 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)((props) 
     }
 
     function sendToUserFavorites(){
-        console.log("here");
         const favoriteItem = {title, coverPic, category, type, movieId}
         moviePageApi.post(`users/${userId}/favoriteList.json`,favoriteItem)
         .then(response=>{
@@ -96,7 +97,16 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)((props) 
             });
         }).catch(error => console.log(error));
     }
-
+    let rateResult;
+    if(rate!=null && rate!=undefined) {
+        if(rate>0)
+            rateResult = convertNumberToPersian(rate)+"+";
+        else if(rate<0)
+            rateResult = convertNumberToPersian(Math.abs(rate))+"-"
+        else
+            rateResult = convertNumberToPersian(rate);
+        
+    }
     // قرار دادن فیلتر مات شدن پس زمینه برای فایرفاکس
     return(
         <div className="MoviePage-container">
@@ -116,7 +126,7 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)((props) 
                         <div >
                             <span className="MoviePage-head-rate">
                                 <span><i className="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                                <span>{parseInt(rate)>=0?convertNumberToPersian(rate)+"+":convertNumberToPersian(Math.abs(rate))+"-"}</span>
+                                <span>{rateResult}</span>
                             </span>
                         </div>
                         <p>{description}</p>

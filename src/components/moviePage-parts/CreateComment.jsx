@@ -11,6 +11,7 @@ export function CreateComment(props) {
 
     function shareComment(event){
         event.preventDefault();
+        console.log(new Date().toLocaleDateString('fa-IR'))
         const textarea = document.getElementById("comment-textarea");
         textarea.style.border=""
         if(textarea.validity.valid == true){
@@ -18,8 +19,8 @@ export function CreateComment(props) {
             const date = new Date(); 
             const commentData = {
                 text,
-                time: date.toLocaleTimeString(),
-                date: date.toLocaleDateString(),
+                time: date.getHours(),
+                date: new Date().toLocaleDateString('fa-IR'),
                 user:username
             }
             setState({loading: true})

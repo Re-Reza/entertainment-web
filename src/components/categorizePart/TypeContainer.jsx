@@ -12,6 +12,11 @@ export function TypeContainer(props) {
         persianCategoryTitle,
         categoryTitle
     }
+    const categoryObj = {
+        value: category,
+        name: convertToPersian(category)
+    }
+
     return (
         <article className="categoryContent-TypeContainer">
             {
@@ -19,13 +24,12 @@ export function TypeContainer(props) {
                     :
                     <>
                         <h5 className="category-TypeContainer-title">
-                            {/* fix path of Link */}
-                            <Link to="/">{persianCategoryTitle}</Link>
+                            {persianCategoryTitle}
                         </h5>
 
                         <div className="categoryContent-TypeContainer-movies">
                             {
-                                movies.map((item, index) => <MovieItem type={{typeObject, category}} movie={item} key={index} />)
+                                movies.map((item, index) => <MovieItem type={typeObject} category={categoryObj} movie={item} key={index} />)
                             }
                         </div>
                     </>

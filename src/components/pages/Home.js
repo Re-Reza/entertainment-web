@@ -8,7 +8,7 @@ import {setContent} from "../../statemanagement/actions/contentActions";
 
 //import created components
 import Slider from '../slider/Slider';
-import {PopularItem, FeatureSection} from "../home-page-parts"
+import {PopularItem, FeatureSection, CommonQuestions} from "../home-page-parts"
 import {Loading2} from "../loading/Loading2";
 
 //import style
@@ -126,6 +126,10 @@ const ConnectedComponent = connect(mapStateToProps , mapDispatchToProps)
               
             <section className="home-feature-section">
                 <FeatureSection/>
+            </section>
+
+            <section className='common-questions-section'>
+                <CommonQuestions/>
             </section>
 
 

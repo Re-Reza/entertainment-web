@@ -1,0 +1,125 @@
+#footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    padding:4em 3em;
+    padding-bottom: 1em;
+    border-top: 1px solid #e5e5e5;
+}
+.footer-top-section{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+    justify-content: center;
+    justify-items: center;
+    border-bottom: 2px solid #e5e5e5;
+    padding-bottom: 2.5em;
+    grid-row-gap: 40px;
+}
+.footer-title{
+    color: #f9ad03;
+    margin-bottom: 1em;
+}
+.footer-title span{
+    color: #e50914 !important;
+}
+.footer-itemsContainer{
+    display:grid;
+    grid-template-rows: repeat(3, max-content);
+    grid-auto-rows: max-content;
+    grid-row-gap: 1em;
+
+}
+.footer-itemsContainer li{transition:all .4s}
+.footer-itemsContainer li:hover{
+    color: rgb(246, 167, 21);
+}
+.footer-bottom-section{
+    display:flex;
+    padding: 3em 0 0 0;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.footer-bottom-iconContainer{
+    display:flex;
+    margin-bottom: 50px;
+}
+.footer-social-container{
+    margin-left: 1.5em;
+    border: 1px solid #fff;
+    padding:.8em;
+    padding-bottom:.6em;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 50%;
+    transition:all .7s
+}
+.footer-social-container i.fa{
+    color: #fff;
+    font-size: 1.5em;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.footer-icon{
+    width: 30px;
+    height: 30px;
+}
+.footer-social-container:hover i.fa{
+    animation: shakeIcon .5s
+}
+.twitter:hover ,.facebook:hover{ 
+    background-color:#1da1f2;
+}
+.instagram:hover{
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%,#fd5949 45%, #d6249f 45%, #d6249f 60%, #285AEB 90%);
+}
+.youtube:hover
+{
+    background-color:red
+}
+@keyframes shakeIcon {
+    10%{
+        transform: rotate(15deg)
+    }
+    20%
+    {
+        transform: rotate(-15deg)
+    }
+    30%
+    {
+        transform: rotate(15deg)
+    }
+    40%
+    {
+        transform: rotate(-15deg)
+    }
+}
+
+@media screen and (max-width: 775px){
+    .footer-top-section{
+        text-align:right ;
+    }
+}
+@media screen and (max-width: 710px){
+    .footer-top-section{
+        grid-template-columns: repeat(1, 1fr);
+        /* justify-items:start */
+        justify-items: start;
+    }
+    .footer-top-partContainer:not(.footer-top-partContainer:last-of-type){
+        grid-column: 1/2;
+        width: 100%;
+        padding-bottom:1.5em;
+        border-bottom: 1px solid #e5e5e5;
+    }
+}
+@media screen and (max-width:500px){
+    .footer-social-container{
+        margin-left: .9em;
+    }
+}
+

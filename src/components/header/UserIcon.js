@@ -4,6 +4,7 @@ import { setInfoOfUser } from "../../statemanagement/actions/userInfoActions";
 import axios from 'axios';
 import { Link } from "react-router-dom";
 import {BASE_URL} from "../baseUrl";
+import getUserFromServer from "../../getUserFromServer";
 
 function mapStateToProps(state){
     return {
@@ -11,40 +12,27 @@ function mapStateToProps(state){
     }
 }
 const mapDispatchToProps = (dispatch) =>({
-    setUserInfo : (data) => dispatch(setInfoOfUser(data)) 
+    setUserInfo : (data) => dispatch(setInfoOfUser(data)),
+    signOutUser : () => dispatch({type: "SIGN_OUT"})
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(UserIcon);
 
 function UserIcon(props){
 
-    const {setUserInfo, userInfo} = props;
+    const {setUserInfo, userInfo, signOutUser} = props;
     const {userName, phoneNumber} = userInfo;
     useEffect(()=>{
-        const userId = localStorage.getItem('userId');
-        if(userId != null && userId != undefined) 
-        {
-            axios.get(`https://entertainment-web-db33a-default-rtdb.firebaseio.com/users/${userId}.json`)
-            .then(response => {
-                setUserInfo({
-                    ...response.data,
-                    userId: userId
-                });
-            }).catch(err=>console.log(err));
-        }
-    }, []);
+        getUserFromServer().then((data)=>{
+            if(data) 
+                setUserInfo(data);
+        });
 
-    function exitUser(){
-        setUserInfo({
-            userName:null, 
-            phoneNumber:null,
-            password:null,
-        })
-    }
+    }, []);
 
     return(
         <div className="user-icon-option-container">
-            <Link to="/">
+            <Link to={BASE_URL+"dashboard"}>
                 <div className="user-icon-container">
                     <div className="user-icon-logo">
                         <i className="fa fa-user" aria-hidden="true"></i>
@@ -70,18 +58,20 @@ function UserIcon(props){
                 </div>
                 <ul className="user-info-box-links">
                     <li className="header-link-container">
-                        <Link to="/">پروفایل من</Link>
+                        <Link to={BASE_URL+"dashboard"}>پنل کاربری</Link>
                     </li>
-                    <li className="header-link-container">
-                        <Link to="/">خروج از حساب کاربری</Link>   
-                    </li>
-                    <li onClick={exitUser} className="header-link-container">
-                        <Link to={BASE_URL+"signin"}>
-                            <span className="user-info-box-exit">
-                                <i className="text-danger fa fa-sign-out" aria-hidden="true"></i>
-                                خروج از حساب کاربری     
-                            </span>
-                        </Link>   
+                    {
+                        userName != null?
+                        <li className="header-link-container">
+                            <Link to={BASE_URL+"signin"}>ورود با حساب دیگر</Link>   
+                        </li>
+                        :<></>
+                    }
+                    <li onClick={signOutUser} className="header-link-container">
+                        <span className="user-info-box-exit">
+                            <i className="text-danger fa fa-sign-out" aria-hidden="true"></i>
+                            خروج از حساب کاربری     
+                        </span>
                     </li>
                 </ul>
 

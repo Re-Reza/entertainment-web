@@ -1,37 +1,14 @@
 import React, {useState} from "react";
-import {connect} from "react-redux";
-
-function mapStateToProps(state) {
-    return{
-        category:state.categorizeState.category,
-        type:state.categorizeState.type
-    }
-}
-
-export default connect(mapStateToProps)(DropDown)
 
 function DropDown(props){
-    const {options, category, type, dispatch, isCategory} = props;
+
     const [state, setState] = useState({
         show:false
-    })
+    });
+    const{options, navigateState, isCategory, setNavigateState} =  props;
+    const {category, type} = navigateState;
 
-    function changeSelectedItem(item){
-        console.log(item)
-        if(isCategory)
-        {
-            dispatch({
-                type:"SET_CATEGORY",
-                payload:item
-            });
-        }
-        else{
-            dispatch({
-                type:"SET_TYPE",
-                payload:item
-            });
-        }
-    }
+    const keyOfNavigateState = isCategory ?  "category" : "type";
 
     return(
         <div className="DropDown">
@@ -54,7 +31,7 @@ function DropDown(props){
             <ul className={state.show?"show DropDown-options":"DropDown-options"}>
                 {
                     options.map((item, index)=>
-                    <li onClick={changeSelectedItem.bind(this, item)} value={item.value} key={index}>{item.name}</li>)
+                    <li onClick={()=>setNavigateState(keyOfNavigateState, item)} value={item.value} key={index}>{item.name}</li>)
                 }
             </ul>
 
@@ -62,3 +39,5 @@ function DropDown(props){
     )
 
 }
+
+export default DropDown;

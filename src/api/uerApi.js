@@ -12,14 +12,12 @@ const userApi = axios.create({
 // }
 
 userApi.interceptors.response.use(function(response) {
-    console.log(Object.entries(response.data));
     const data = Object.entries(response.data).map(item=>{
         return{
             id:item[0],
             ...item[1]
         }
     })
-    console.log(data)
     return data;
 }, function(error){
     return Promise.reject(error);

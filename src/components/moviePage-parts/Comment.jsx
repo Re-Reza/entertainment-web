@@ -10,8 +10,9 @@ export const Comment = (props) =>{
         <div className="commentContainer">
             <div>
                 <span>
-                    <span>{date}</span>
-                    <span>{time}</span>
+                    <span>{date}</span>&nbsp;
+                    ساعت&nbsp;
+                    <span>{convertNumberToPersian(time)}</span>
                 </span>
                 <span>{user}</span>
             </div>

@@ -1,6 +1,6 @@
 .home-mainContainer{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     grid-row-gap: 0;
 }
 .home-headPart{
@@ -149,5 +149,79 @@
 @media screen and (max-width:770px){
     .home-feature-section-itemsContainer{
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* --------------------------------common questions ----------------------------*/
+.common-questions-section{
+    grid-column: 1/-1;
+    background-color: #000;
+    color: #fff;
+    padding: 4em 0;
+}
+.common-questions-container{
+    display: flex;
+    width:50%;
+    margin: auto;
+    flex-direction:column;
+    justify-content:center;
+}
+.common-questions-container ul{
+    padding: 0;
+}
+.common-questions-container h2{
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.common-question{
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+.question{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding: .5em 1em;
+    justify-content:space-between;
+    background-color:#303030;
+}
+.common-questions-answer{
+    transition: all .3s;
+    padding: .9em .9em;
+    background-color:#303030;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.close{
+    height:0;
+    padding:0;
+    margin-top: 0;
+    visibility:hidden;
+}
+.exit-style{
+    transform:rotate(45deg);
+    color: rgb(255, 0, 0);
+}
+@media screen and (max-width: 900px){
+    .common-questions-container{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 769px){
+    .common-questions-container{
+        width: 80%;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 565px){
+    .common-questions-container{
+        width: 86%;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 450px){
+    .common-questions-container{
+        width: 90%;
+        font-size: 11px;
     }
 }

@@ -15,11 +15,20 @@ function userInfoReducer(state = initialState, action) {
                 ...action.payload
             }
 
+        case "SIGN_OUT":
+            localStorage.removeItem("userId");
+            return initialState;
+
         case "ADD_TO_USER_FAVORITE":
-            console.log( state.favoriteList.concat(action.payload))
             return{
                 ...state,
                 favoriteList : state.favoriteList.concat(action.payload)
+            }
+
+        case "DELETE_FAVORITE_ITEM":
+            return{
+                ...state,
+                favoriteList: state.favoriteList.filter(item=> item.favoriteId != action.payload)
             }
 
         default:

@@ -13,7 +13,10 @@ contentApi.interceptors.response.use( function(response) {
             items={
                 ...items,
                 [movieType[0]]: Object.entries(movieType[1]).map(movie=>{
+                    
                     return{
+                        category:item[0],
+                        type:movieType[0],
                         id:movie[0],
                         ...movie[1]
                     }
@@ -24,7 +27,7 @@ contentApi.interceptors.response.use( function(response) {
             ...data,
             [item[0]] : items
         }
-    })
+    });
     return data;
 },
 function(error){
