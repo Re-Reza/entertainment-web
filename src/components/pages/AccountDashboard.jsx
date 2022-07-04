@@ -53,6 +53,10 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)(function
             [selected] : true
         });
     }
+
+    function hideAside(){
+        document.querySelector(".dashboard-aside").classList.remove("show-aside")
+    }
     
     let ActivePartComponent;
     if(main)
@@ -66,28 +70,33 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)(function
 
     return (
         <div className="dashboard-mainContainer">
-            <div className="dashboard-head-aside-container">
-                <header id="dashboard-header">
-                    <HeadPart userData={{username,}}/>
-                </header>
-                <aside className="dashboard-aside">
+
+            <header id="dashboard-header">
+                <HeadPart userData={{username,}}/>
+            </header>
+
+            <aside className="dashboard-aside">
+
+                <div className="d-flex justify-content-between">  
                     <h3>پنل حساب کاربری</h3>
-                    <ul className="dashboard-aside-itemsContainer">
-                        <li onClick={()=>{switchPart('main')}} className={main?"selected dashboard-aside-partBtn":"dashboard-aside-partBtn"}>
-                            بخش اصلی
-                        </li>
-                        <li onClick={()=>{switchPart('favoriteListPart')}} className={favoriteListPart?"selected dashboard-aside-partBtn":"dashboard-aside-partBtn"}>
-                            لیست علاقه مندی ها
-                        </li>
-                        <li onClick={()=>{switchPart('accountInfo')}} className={accountInfo?"selected dashboard-aside-partBtn":"dashboard-aside-partBtn"}>
-                            اطلاعات کاربری
-                        </li>
-                        <li onClick={()=>{switchPart('changeAccountInfo')}} className={changeAccountInfo?"selected dashboard-aside-partBtn":"dashboard-aside-partBtn"}>
-                            تغییر اطلاعات حساب
-                        </li>
-                    </ul>
-                </aside>
-            </div>
+                    <span onClick={hideAside} className="close-aside-btn"><i className="fa fs-2 text-danger fa-times" aria-hidden="true"></i></span>
+                </div>
+
+                <ul className="dashboard-aside-itemsContainer">
+                    <li onClick={()=>{switchPart('main')}} className={main?"selected dashboard-aside-partBtn":"dashboard-aside-partBtn"}>
+                        بخش اصلی
+                    </li>
+                    <li onClick={()=>{switchPart('favoriteListPart')}} className={favoriteListPart?"selected dashboard-aside-partBtn":"dashboard-aside-partBtn"}>
+                        لیست علاقه مندی ها
+                    </li>
+                    <li onClick={()=>{switchPart('accountInfo')}} className={accountInfo?"selected dashboard-aside-partBtn":"dashboard-aside-partBtn"}>
+                        اطلاعات کاربری
+                    </li>
+                    <li onClick={()=>{switchPart('changeAccountInfo')}} className={changeAccountInfo?"selected dashboard-aside-partBtn":"dashboard-aside-partBtn"}>
+                        تغییر اطلاعات حساب
+                    </li>
+                </ul>
+            </aside>
             
             <section className="dashboard-content-section">
                 {

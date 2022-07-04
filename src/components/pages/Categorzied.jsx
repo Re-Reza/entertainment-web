@@ -16,6 +16,7 @@ export function Categorized () {
     });
 
     const {category} = useParams();
+    
     useEffect(()=>{
         categorizedContent.get( category+ ".json").then(response => {
             setState(previousState => ({
@@ -52,14 +53,15 @@ export function Categorized () {
 
     //to add new data to database
     // useEffect(()=>{
-    //     categorizedContent.post("movies/historical.json",{
+    //     categorizedContent.post("series/family.json",{
     //         title:"جادوگر",
     //         coverPic:"https://static.cdn.asset.filimo.com/flmt/mov_118577_37568-m.jpg",
     //         description:"قدرت و جهانگیر و پری برای رهایی از دست قاچاقچیان تن به در خواست آنها داده و بی خبر از اینکه این دو نفر همان شخص مورد نظر نیستند اشتباها دو پیرزن را در میان راه سوار ماشینشان می کند. این کارشان باعث می شود تا قاچاقچیان فکر کنند آنها قصد پس ندادن اتومبیل را دارند، به همین جهت در تعقیب آنها حرکت می کنند و ...",
     //         comments:[],
     //         rate:0  ,
-    //         movieUrl:"https://hajifirouz5.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImJhODM2NDdjNDAyMjA5NTcwYWNhNDc5NjBmYzljYjNhIiwiZXhwIjoxNjU1NzQ5MzI1LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.7qqiaaJn6Vl0ldbq5SVou3nSdLfNUDVkig-K9EkwlhY"
+    //         movieUrl:"https://persian2.asset.aparat.com/aparat-video/4c040570219cf9d23e0be8c704758f8544879047-1080p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjRkZjk3YmVmMzc1ZmI5MTIyODA3ODRlMzMzMTY2YzYzIiwiZXhwIjoxNjU2ODkyNzY3LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.dGgRQhEWc0pkPBiECEyTnsnbRZpwJufrPdLueCO7aZg"
     //     }).then(response => {
     //         console.log(response);
     //     }).catch(error => {console.log(error)})
-    // },[])
+    // })
+

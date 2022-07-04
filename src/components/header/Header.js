@@ -98,7 +98,7 @@ class Header extends Component {
                     {
                         window.location.pathname == "/" ?
                         <></>:                   
-                        <div>
+                        <div className="header-returnHome">
                             <Link to={BASE_URL+"home"}><i className="fa fa-home" aria-hidden="true"></i> صفحه اصلی</Link>
                         </div>
                     }

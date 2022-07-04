@@ -51,7 +51,16 @@ export function ChangeAccountInfo(props){
     return(
         <section className="dashboard-changeAccountInfo">   
             <h2>تغییر مشخصات حساب</h2>
-            <form noValidate onSubmit={submitNewInfo}>
+            <form id="changeUserInfo-form" noValidate onSubmit={submitNewInfo}>
+                
+                {/* <div>
+                    <input id="img-input" type="file" />
+                    <button onClick={()=>{
+                        let imgInput = document.getElementById("img-input");
+                        console.log(imgInput.value)
+                    }}>send</button>
+                </div> */}
+
                 <div>
                     <label className="mb-3" htmlFor="usernameInput">تغییر نام کاربری</label>
                     <input required defaultValue={username} type="text" className="form-control" id="usernameInput" />

@@ -11,7 +11,6 @@ export function CreateComment(props) {
 
     function shareComment(event){
         event.preventDefault();
-        console.log(new Date().toLocaleDateString('fa-IR'))
         const textarea = document.getElementById("comment-textarea");
         textarea.style.border=""
         if(textarea.validity.valid == true){

@@ -4,7 +4,7 @@ import axios from "axios";
 import {connect} from "react-redux";
 
 
-import {Comment, CreateComment} from "../moviePage-parts"
+import {Comment, CreateComment, HeadPart} from "../moviePage-parts"
 import {convertToPersian, convertNumberToPersian} from "../../converToPersian";
 import {addToFavorites} from "../../statemanagement/actions/userInfoActions";
 import {Loading3} from "../loading";
@@ -43,9 +43,9 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)((props) 
     const { category, type, movieId } = useParams(); 
     const { title, description, coverPic, rate, movieUrl, isLoading} = state;
     const {username, userId, addToFavoriteList} = props;
-
+    console.log(movieUrl)
     //برسی اینگه اگر کاربر این فیلم را لایک کرده دیگر نتوانتد لایک یا دیس لایک کند برای افزودن به علاقه مندی هم همینطور
-    //رسپانیو کردن و درست کردن تنظیمات پکیج دات جی سان
+
     useEffect(()=>{
         moviePageApi.get(`content/${category}/${type}/${movieId}.json`)
         .then(response=>{
@@ -82,7 +82,6 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)((props) 
             console.log(response)
             addToFavoriteList(favoriteItem);
         }).catch(err=>console.log(err));
-
     }
 
     function likeAndUnlike(value)
@@ -112,31 +111,29 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)((props) 
         <div className="MoviePage-container">
             <section className="MoviePage-container-headSection">
                 {
-                    state.isLoading?
+                    isLoading?
                     <div className="MoviePage-loadingContainer">
                         <Loading3/>
                     </div>
                     :
                     <article className="MoviePage-head">
-                    <div className="MoviePage-head-imgContainer">
-                        <img src={coverPic} alt={title} />
-                    </div>
-                    <div className="MoviePage-head-infoContainer">
-                        <h5>{title}</h5>
-                        <div >
-                            <span className="MoviePage-head-rate">
-                                <span><i className="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                                <span>{rateResult}</span>
-                            </span>
+                        <HeadPart movieData={{movieUrl, title, coverPic}} />
+                        <div className="MoviePage-head-infoContainer">
+                            <h5>{title}</h5>
+                            <div >
+                                <span className="MoviePage-head-rate">
+                                    <span><i className="fa fa-thumbs-up" aria-hidden="true"></i></span>
+                                    <span>{rateResult}</span>
+                                </span>
+                            </div>
+                            <p>{description}</p>
+                            <div>
+                                <span className="MoviePage-tag rounded-pill">{convertToPersian(category)}</span>
+                                &nbsp;
+                                <span className="MoviePage-tag rounded-pill">{convertToPersian(type)}</span>
+                            </div>
                         </div>
-                        <p>{description}</p>
-                        <div>
-                            <span className="MoviePage-tag rounded-pill">{convertToPersian(category)}</span>
-                            &nbsp;
-                            <span className="MoviePage-tag rounded-pill">{convertToPersian(type)}</span>
-                        </div>
-                    </div>
-                </article>
+                    </article>
                 }
 
                 <article className="MoviePage-head-options-container">

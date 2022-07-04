@@ -6,12 +6,25 @@ export function HeadPart(props){
 
     const {username} = props.userData;
    
+    function showAside(){
+        console.log(document.querySelector(".dashboard-aside"))
+        document.querySelector(".dashboard-aside").classList.add("show-aside")
+    
+    }
+
     return(
         <div className="dashboard-head">
         
             <div className="dashboard-head-rightPart">
-                <div>{username} گرامی خوش آمدید</div>
-                <div className="dashboard-date">{new Date().toLocaleDateString("fa-IR")}</div>
+                <div className="side-barMenu-button">
+                    <button onClick={showAside}><i className="fa fa-bars" aria-hidden="true"></i></button>
+                </div>
+                
+                <div className="dashboard-head-wellcomeMessage">
+                    <div>{username} گرامی خوش آمدید</div>
+                    <div className="dashboard-date">{new Date().toLocaleDateString("fa-IR")}</div>
+                </div>
+                
             </div>
             
             <div className ="dashboard-head-leftPart">

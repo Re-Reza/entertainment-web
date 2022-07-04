@@ -108,3 +108,15 @@
 .categoryContent-movieInfo-item{
     margin: 2px;
 }
+@media screen and (max-width:460px){
+    .categoryContent-movieTypes-Container{
+        padding: 1em;
+    }
+    .categoryContent-categoryTitle{
+        padding: 0;
+    }
+    .category-TypeContainer-title{
+        text-align: center;
+        padding:0
+    }   
+}
