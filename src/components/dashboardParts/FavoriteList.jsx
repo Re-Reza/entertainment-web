@@ -5,6 +5,9 @@ export function FavoriteList(props){
 
     const {favoriteList} = props.userData;
 
+
+    //نباید چند بار یک ایتم به حساب اضافه شود
+
     return(
         <section className="dashboard-favorite-list">
             <h3>لیست علاقمندی ها</h3>
@@ -15,8 +18,10 @@ export function FavoriteList(props){
                 <h2 className="text-center">نتیجه ای  پیدا نشد !</h2>
               </div>:
               favoriteList.map((item, index)=> <FavoriteItem key={index} item={item} /> )
+              
             }
             </div>
+
         </section>
     )
 }

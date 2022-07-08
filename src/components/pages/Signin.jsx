@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "../../css/signin.css"
 import axios from "axios";
 import {BASE_URL} from "../baseUrl";
@@ -17,6 +17,10 @@ export function SignIn () {
     });
 
     const navigate = useNavigate();
+
+    useEffect(()=>{
+        document.title = state.createAccount ? "ثبت نام" : "ورود";
+    }, [state.createAccount]);
 
     const [errorState, setErrorState]= useState({
         userNameError:"",
@@ -77,7 +81,7 @@ export function SignIn () {
                     if(foundUser != undefined && foundUser.password == state.password )
                     {
                         localStorage.setItem('userId', foundUser.id);
-                        navigate(BASE_URL+'home');
+                        navigate(BASE_URL);
                     }
                     else{
                         setErrorState({
@@ -120,10 +124,7 @@ export function SignIn () {
                 <form id="signin-from" onSubmit={submitHandler}>
                     <div className="signin-headContainer">
                         <h1 className="signin-title">{state.createAccount?"ایجاد حساب":"ورود"}</h1>       
-                        {
-                            state.loading?
-                            <Loading1/>:<></>
-                        }
+                        <h2 className="signin-logo">سینما <span>آنلاین</span></h2>
                     </div>
                     {
                         errorState.wrongInfoError?
@@ -150,8 +151,14 @@ export function SignIn () {
                         :<></>
                     }
                     <button type='submit' className="btn signin-submit-btn">{state.createAccount? "ایجاد حساب":"ورود"}</button>
-                    <div>
+                    <div className="d-flex justify-content-between align-items-center">
                         <span className="signin-status-text" onClick={toggleLoginStatus}>{state.createAccount?"ورود به حساب کاربری" : "ساخت حساب جدید"}</span>
+                        <span>
+                        {
+                            state.loading?
+                            <Loading1/>:<></>
+                        }
+                        </span>
                     </div>
              
                 </form>

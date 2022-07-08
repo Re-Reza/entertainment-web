@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams } from 'react-router';
 import categorizedContent from "../../api/categorizedApi";
-import { CategorizedPart, TypeContainer } from "../categorizePart";
+import { CategorizedPart, TypeContainer, AllMovies } from "../categorizePart";
 import "../../css/categorized.css";
 import { Loading2 } from '../loading/Loading2';
 import { Loading1 } from '../loading';
@@ -11,17 +11,17 @@ import { convertToPersian } from '../../converToPersian';
 export function Categorized () {
 
     const [state, setState] = useState({
-        movieTypes: [],
+        data: [],
         loading: true,
     });
 
     const {category} = useParams();
     
     useEffect(()=>{
-        categorizedContent.get( category+ ".json").then(response => {
+        categorizedContent.get( category=='all'?".json":category+ ".json").then(response => {
             setState(previousState => ({
                 ...previousState,
-                movieTypes: response,
+                data: response,
                 loading: false,
             }))
         }).catch(error => console.log(error));
@@ -33,7 +33,6 @@ export function Categorized () {
                 <CategorizedPart />
             </section>
 
-            {/* اضافه کردن لودینگ برای ه نوع فیلم یعنی 9 لودینگ یا قرار دادن لودینگ برای هر فیلم ! */}
             <h3 className="categoryContent-categoryTitle"><span>{convertToPersian(category)}</span></h3>
             {
                 state.loading ?
@@ -41,11 +40,18 @@ export function Categorized () {
                         <Loading2 />
                     </div>
                     :
-                    <section className="categoryContent-movieTypes-Container">
-                        {
-                            state.movieTypes.map((item, index) => <TypeContainer loading={state.loading} movieType={{ ...item, category: category }} key={index} />)
-                        }
-                    </section>
+                state.data.all?
+                <section className="allData-section">
+                {
+                    state.data.content.map((item, index)=> <AllMovies currentIndex={index} endIndex={state.data.content.length-1} content={item} key={index}/>)
+                }
+                </section>
+                :
+                <section className="categoryContent-movieTypes-Container">
+                {
+                    state.data.content.map((item, index) => <TypeContainer borderBottom={state.data.content.length-1 == index ? false : true} loading={state.loading} movieType={{ ...item, category: category }} key={index} />)
+                }
+                </section>
             }
         </div>
     )

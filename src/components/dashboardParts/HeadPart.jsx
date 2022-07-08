@@ -29,10 +29,10 @@ export function HeadPart(props){
             
             <div className ="dashboard-head-leftPart">
 
-               <Link to={BASE_URL+"home"}><i className="fa fa-home" aria-hidden="true"></i> صفحه اصلی</Link>
-               <div className = "dashboard-head-profileContainer">
+               <Link to={BASE_URL}><i className="fa fa-home" aria-hidden="true"></i> صفحه اصلی</Link>
+               {/* <div className = "dashboard-head-profileContainer">
                     <img src="" alt="profile-img" /> 
-               </div>
+               </div> */}
             
             </div>
         

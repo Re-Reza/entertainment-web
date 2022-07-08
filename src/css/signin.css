@@ -27,6 +27,14 @@
     border-radius: 10px;
     z-index: 2;
 }
+.signin-logo{
+    font-size: 1.8em;
+    color: #e50914;
+    align-self: end
+}
+.signin-logo span{
+    color: #f9ad03;
+}
 #signin-from{
     display: grid;
     grid-template-rows: repeat(3,max-content);

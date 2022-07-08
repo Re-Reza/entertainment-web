@@ -142,7 +142,11 @@
     grid-template-rows:max-content;
     grid-row-gap: 1em;
     grid-auto-flow: row;
+    justify-items: start;
     grid-auto-rows: 1fr;
+}
+.user-info-box-links p{
+    margin-bottom:0;
 }
 .user-info-box-exit{
     display:flex;
@@ -189,9 +193,9 @@
     .header-category-dropdown{
         display: none !important;
     }
-    .user-info-box{
+    /* .user-info-box{
         display: none !important;
-    }
+    } */
     .header-drop-arrow{
         display: none;
     }

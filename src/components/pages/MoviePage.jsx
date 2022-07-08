@@ -13,11 +13,13 @@ import moviePageApi from "../../api/moviePageApi";
 import "../../css/moviePage.css";
 
 function mapStateToProps(state) {
+
     return{
         username: state.userState.userName,
         password: state.userState.password,
         phoneNumber: state.userState.phoneNumber,
-        userId: state.userState.userId 
+        userId: state.userState.userId,
+        favoriteList: state.userState.favoriteList
     }
 }
 
@@ -25,6 +27,12 @@ function mapDispatchToProps(dispatch) {
     return{
         addToFavoriteList : (newItem) =>{
             dispatch(addToFavorites(newItem))
+        },
+        deleteFavoriteItem : (id) => {
+            dispatch({
+                type:"DELETE_FAVORITE_ITEM",
+                payload:id
+            });
         } 
     }
 }
@@ -37,19 +45,22 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)((props) 
         rate:null,
         movieUrl: null,
         comments:[],
-        isLoading:true
+        isLoading:true,
+        bookmarked: false,
     });
 
     const { category, type, movieId } = useParams(); 
     const { title, description, coverPic, rate, movieUrl, isLoading} = state;
-    const {username, userId, addToFavoriteList} = props;
-    console.log(movieUrl)
+    const {username, userId, addToFavoriteList, favoriteList, deleteFavoriteItem} = props;
+
     //برسی اینگه اگر کاربر این فیلم را لایک کرده دیگر نتوانتد لایک یا دیس لایک کند برای افزودن به علاقه مندی هم همینطور
 
     useEffect(()=>{
+       
         moviePageApi.get(`content/${category}/${type}/${movieId}.json`)
         .then(response=>{
-
+            console.log(response.data.title)
+            document.title = response.data.title;
             const comments = response.data.comments != undefined && response.data.comments != null ?
             Object.entries(response.data.comments).map(item=>{
                 return{
@@ -57,16 +68,22 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)((props) 
                     id:item[0]
                 }
             }) : [];
-  
+            let foundMovie;
+            if(favoriteList !=[]){
+                foundMovie = favoriteList.find(item => item.movieId == movieId );
+                console.log(foundMovie); 
+                console.log(movieId)
+            }
             setState({
                 ...response.data,
                 comments:comments || [],
-                isLoading:false
+                isLoading:false,
+                bookmarked: foundMovie == undefined ? false : true
             });
         }).catch(error=>{
             console.log(error);
         })
-    },[]);
+    }, [favoriteList]);
 
     function addToComments(newComment){
         setState({
@@ -76,12 +93,23 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)((props) 
     }
 
     function sendToUserFavorites(){
-        const favoriteItem = {title, coverPic, category, type, movieId}
-        moviePageApi.post(`users/${userId}/favoriteList.json`,favoriteItem)
-        .then(response=>{
-            console.log(response)
-            addToFavoriteList(favoriteItem);
-        }).catch(err=>console.log(err));
+        if(state.bookmarked){
+            const foundItem = favoriteList.find(item => item.movieId == movieId);
+            moviePageApi.delete(`users/${userId}/favoriteList/${foundItem.favoriteId}.json`)
+            .then(response =>{
+                console.log(response);
+                deleteFavoriteItem(foundItem.favoriteId)
+            })
+            .catch(error => console.log(error))
+        }
+        else{
+            const favoriteItem = {title, coverPic, category, type, movieId}
+            moviePageApi.post(`users/${userId}/favoriteList.json`,favoriteItem)
+            .then(()=>{
+                addToFavoriteList(favoriteItem);
+            }).catch(err=>console.log(err));
+        }
+    
     }
 
     function likeAndUnlike(value)
@@ -138,10 +166,13 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)((props) 
 
                 <article className="MoviePage-head-options-container">
 
-                    <span onClick={sendToUserFavorites} className="MoviePage-head-option bookmark">
+                    <span onClick={sendToUserFavorites} className={state.bookmarked?"MoviePage-head-option bookmark bg-success":"MoviePage-head-option bookmark"}>
                         <i className="fa fa-bookmark-o" aria-hidden="true"></i>
-                        نشان کردن
-                    </span>
+                        {
+                            !state.bookmarked?"نشان کردن":
+                            "حذف از لیست علاقه مندی ها"
+                        }
+                        </span>
                     <span onClick={likeAndUnlike.bind(this, 1)} className="like rate-option MoviePage-head-option">
                         <i className="fa fa-thumbs-up" aria-hidden="true"></i>
                     </span>

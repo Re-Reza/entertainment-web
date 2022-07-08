@@ -15,8 +15,6 @@ export function CategorizedPart() {
 
 
     function setCategoryAndType(key ,value){
-        console.log(key);
-        console.log(value);
         setState({
             ...state,
             [key] : value 
@@ -25,10 +23,8 @@ export function CategorizedPart() {
 
     const requestNewContent = () =>{
         const {category, type} = state;
-        console.log(state);
         if(category != null)
         {
-            console.log("navigate");
             navigate(`${BASE_URL}${category.value}${type ? "/"+type.value:""}`);
         }
     }
@@ -36,7 +32,7 @@ export function CategorizedPart() {
     const optionList1 = [
         {name:'سريال',value:'series'},
         {name:'فیلم',value:'movies'},
-        {name:'همه',value:'all'} //still vauge
+        {name:'همه',value:'all'}
     ]
     const optionList2 = [
         {name:'اکشن',value:'action'},

@@ -15,12 +15,14 @@
     grid-column: 1/-1;
     display:flex;
     flex-direction: column;
+    padding-left:5em;
+    padding-right: 5em;
 }
 .category-TypeContainer-title{
     transition: all 0.5s;
     font-size:1.8em;
-    padding-right: 1.3em;
-    margin-bottom: .9em;
+    text-align: center;
+    margin-bottom: 1.5em;
 }
 .categorized-loadingContainer{
     width: 100%;
@@ -32,10 +34,9 @@
 }
 .categoryContent-categoryTitle{
     color: #fff;
-    padding-right: 1em;
     font-weight: 800;
     color: #f9ad03;
-    margin-bottom: 1.1em;
+    margin-bottom: 1.5em;
     text-align: center;
     margin-top: 1.5em;
 }
@@ -49,11 +50,28 @@
     grid-column-gap: 1.2em;
     grid-template-columns: repeat(auto-fit,300px);
     justify-content:center;
-    grid-row-gap: 1em;
+    grid-row-gap: 1.5em;
+    margin-bottom: 3em;
+    padding-bottom: 3em;
 }
+.border-bottom{
+    border-bottom: 1px solid #a5a5a5;
+}
+
+@media screen and (max-width:1160px){
+    .categoryContent-TypeContainer{
+        padding-right: 3em;
+        padding-left:3em;
+    }
+}
+
 @media screen and (max-width:880px){
     .categoryContent-TypeContainer-movies{
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .categoryContent-TypeContainer{
+        padding-right: 1.5em;
+        padding-left:1.5em;
     }
 }
 .categoryContent-movieItem{
@@ -72,14 +90,17 @@
     opacity: 1;
     visibility: visible;
 }
-.categoryContent-movieItem img{
-    width: 100%;
-    height:205px;
-    object-fit: cover;
-    border-radius: 8px;
-}
 .categoryContent-movieItem-imgContainer{
     position: relative;
+    width: 100%;
+    /* height:100%; */
+}
+.categoryContent-movieItem img{
+    width: 100%;
+    height:210px;
+    object-fit: cover;
+    border-radius: 8px;
+    object-position: relative;
 }
 .categoryContent-movieInfo{
     position: absolute;   
@@ -108,6 +129,21 @@
 .categoryContent-movieInfo-item{
     margin: 2px;
 }
+.allMovies-categoryMovies{
+    display: flex;
+    flex-direction: column;
+}
+.allMovies-categoryMovies{
+    color:#fff;
+    padding: 1.5em;
+}
+.allMovies-categoryMovies h3{
+    text-align: center;
+    color:#e50914;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
 @media screen and (max-width:460px){
     .categoryContent-movieTypes-Container{
         padding: 1em;
@@ -115,8 +151,8 @@
     .categoryContent-categoryTitle{
         padding: 0;
     }
-    .category-TypeContainer-title{
-        text-align: center;
-        padding:0
-    }   
+    .categoryContent-TypeContainer{
+        padding-right: 0em;
+        padding-left:0em;
+    }
 }

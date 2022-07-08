@@ -30,7 +30,7 @@ export function HeadPart(props){
                     <>
                         <img src={coverPic} alt={title} />
                         <div className="MoviePage-playButton">
-                            <i onClick={playMovie} class="fa fa-play-circle-o" aria-hidden="true"></i>
+                            <i onClick={playMovie} className="fa fa-play-circle-o" aria-hidden="true"></i>
                         </div>
                     </>
                 }

@@ -8,6 +8,7 @@ export function TypeContainer(props) {
 
     const { categoryTitle, movies,category } = props.movieType;
     const persianCategoryTitle = convertToPersian(categoryTitle);
+    console.log(props.borderBottom)
     const typeObject = {
         persianCategoryTitle,
         categoryTitle
@@ -20,19 +21,20 @@ export function TypeContainer(props) {
     return (
         <article className="categoryContent-TypeContainer">
             {
-                props.loading ? <Loading2 />
-                    :
-                    <>
-                        <h5 className="category-TypeContainer-title">
-                            {persianCategoryTitle}
-                        </h5>
+            <>
+                {
+                    persianCategoryTitle?
+                    <h5 className="category-TypeContainer-title">
+                        {persianCategoryTitle}
+                    </h5>:<></>
+                }
 
-                        <div className="categoryContent-TypeContainer-movies">
-                            {
-                                movies.map((item, index) => <MovieItem type={typeObject} category={categoryObj} movie={item} key={index} />)
-                            }
-                        </div>
-                    </>
+                <div className={ props.borderBottom ? 'categoryContent-TypeContainer-movies border-bottom' : 'categoryContent-TypeContainer-movies'} >
+                    {
+                        movies.map((item, index) => <MovieItem type={typeObject} category={categoryObj} movie={item} key={index} />)
+                    }
+                </div>
+            </>
             }
 
         </article>

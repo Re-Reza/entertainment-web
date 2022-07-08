@@ -40,6 +40,7 @@ const ConnectedComponent = connect(mapStateToProps , mapDispatchToProps)
     })
 
     useEffect(()=>{
+        document.title="صفحه اصلی";
         contentApi.get('content.json').then(response => {
             setContent(response);
             setState({
@@ -65,7 +66,7 @@ const ConnectedComponent = connect(mapStateToProps , mapDispatchToProps)
     }
 
     function filterPopularSeries(){
-        const popular = Object.entries(series).map(item=>{
+        const popular = Object.entries(series||{}).map(item=>{
             let mostPopular = item[1][0];
             item[1].forEach(movie=>{
                 if(movie.rate> mostPopular.rate)
@@ -131,7 +132,6 @@ const ConnectedComponent = connect(mapStateToProps , mapDispatchToProps)
             <section className='common-questions-section'>
                 <CommonQuestions/>
             </section>
-
 
         </div>
     )

@@ -4,6 +4,7 @@ import {connect} from "react-redux";
 import {HeadPart, MainPart, FavoriteList, ChangeAccountInfo, AccountInfo} from "../dashboardParts";
 import getUserFromServer from "../../getUserFromServer";
 import {setInfoOfUser} from "../../statemanagement/actions/userInfoActions";
+import {Loading2} from "../loading";
 
 import "../../css/accountDashboard.css";
 
@@ -28,18 +29,27 @@ function mapDispatchToProps(dispatch) {
 
 const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)(function(props){
 
-    const {setUserInfo, username, password, favoriteList, phoneNumber} = props;
-
-    useEffect(()=>{
-        getUserFromServer().then(data=>setUserInfo(data))
-    }, []);
+    const {setUserInfo, username} = props;
 
     const [showState, setShowState] = useState({
-        main:true,
-        favoriteListPart:false,
-        accountInfo:false,
-        changeAccountInfo:false,
+        main: true,
+        favoriteListPart: false,
+        // accountInfo:false,
+        changeAccountInfo: false,
+        loading: true,
     });
+
+
+    useEffect(()=>{
+        document.title = 'پنل کاربری'
+        getUserFromServer().then(data=>{setUserInfo(data)
+            setShowState({
+                ...showState,
+                loading: false
+            });
+        })
+    }, []);
+
     const{ main, favoriteListPart, accountInfo, changeAccountInfo} = showState;
     //give option to add profile img
 
@@ -89,9 +99,9 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)(function
                     <li onClick={()=>{switchPart('favoriteListPart')}} className={favoriteListPart?"selected dashboard-aside-partBtn":"dashboard-aside-partBtn"}>
                         لیست علاقه مندی ها
                     </li>
-                    <li onClick={()=>{switchPart('accountInfo')}} className={accountInfo?"selected dashboard-aside-partBtn":"dashboard-aside-partBtn"}>
+                    {/* <li onClick={()=>{switchPart('accountInfo')}} className={accountInfo?"selected dashboard-aside-partBtn":"dashboard-aside-partBtn"}>
                         اطلاعات کاربری
-                    </li>
+                    </li> */}
                     <li onClick={()=>{switchPart('changeAccountInfo')}} className={changeAccountInfo?"selected dashboard-aside-partBtn":"dashboard-aside-partBtn"}>
                         تغییر اطلاعات حساب
                     </li>
@@ -100,7 +110,11 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)(function
             
             <section className="dashboard-content-section">
                 {
-                    <ActivePartComponent userData={props}/>
+                    showState.loading?
+                    <div className="d-flex justify-content-center align-items-center">
+                        <Loading2/>
+                    </div>
+                    :<ActivePartComponent userData={props}/>
                 }
             </section>
 

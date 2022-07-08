@@ -7,7 +7,7 @@ async function getUserFromServer(){
         let data;
         await axios.get(`https://entertainment-web-db33a-default-rtdb.firebaseio.com/users/${userId}.json`)
         .then(response => {
-            const favoriteList = Object.entries(response.data.favoriteList).map(item=>{
+            const favoriteList = Object.entries(response.data.favoriteList || []).map(item=>{
                 return{
                     ...item[1],
                     favoriteId : item[0]

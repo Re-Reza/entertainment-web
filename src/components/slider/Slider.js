@@ -9,9 +9,10 @@ function Slider(){
 
     const [state, setState] = React.useState({
         imgs:[
-            img1,
-            img2,
-            img3
+            'https://www.filimo.com/public/public/filemanager/homeslider/vz6r5_desktop_1_v1.jpg',
+            'https://www.filimo.com/public/public/filemanager/homeslider/nosax_desktop_1_v1.jpg',
+            'https://static.cdn.asset.filimo.com/flmt/mov_cvr_116350_593.jpg',
+            'https://static.cdn.asset.filimo.com/flmt/mov_cvr_119257_890.jpg'
         ],
         shownItem:0
     });
