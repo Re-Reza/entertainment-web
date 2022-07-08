@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/entertainment-web/static/css/main.83abf5e5.css",
-    "main.js": "/entertainment-web/static/js/main.d62e217b.js",
+    "main.css": "/entertainment-web/static/css/main.838dd8ac.css",
+    "main.js": "/entertainment-web/static/js/main.e73f5a21.js",
     "static/js/787.ec704a7a.chunk.js": "/entertainment-web/static/js/787.ec704a7a.chunk.js",
     "static/media/g2.jpg": "/entertainment-web/static/media/g2.4015a1b3f3a441c07c6c.jpg",
     "static/media/7.jpg": "/entertainment-web/static/media/7.b8c76bba2826ea2a1539.jpg",
@@ -25,12 +25,12 @@
     "static/media/Vazir-Medium.woff2": "/entertainment-web/static/media/Vazir-Medium.e61f78cf8ffe51cbfdc1.woff2",
     "static/media/Vazir-Thin.woff2": "/entertainment-web/static/media/Vazir-Thin.0058a1b73ae7100d1351.woff2",
     "index.html": "/entertainment-web/index.html",
-    "main.83abf5e5.css.map": "/entertainment-web/static/css/main.83abf5e5.css.map",
-    "main.d62e217b.js.map": "/entertainment-web/static/js/main.d62e217b.js.map",
+    "main.838dd8ac.css.map": "/entertainment-web/static/css/main.838dd8ac.css.map",
+    "main.e73f5a21.js.map": "/entertainment-web/static/js/main.e73f5a21.js.map",
     "787.ec704a7a.chunk.js.map": "/entertainment-web/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83abf5e5.css",
-    "static/js/main.d62e217b.js"
+    "static/css/main.838dd8ac.css",
+    "static/js/main.e73f5a21.js"
   ]
 }
