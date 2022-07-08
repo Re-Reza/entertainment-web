@@ -12,7 +12,6 @@ import "../css/font.css";
 import "../css/app.css";
 
 function App() {
-  console.log('app')
   return (
     <Provider store={store}>
       <div className="app">
