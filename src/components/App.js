@@ -12,13 +12,14 @@ import "../css/font.css";
 import "../css/app.css";
 
 function App() {
+  console.log('app')
   return (
     <Provider store={store}>
       <div className="app">
         <BrowserRouter>
           <HeaderContainer/>
           <Routes>
-            <Route path={BASE_URL + "/signin"} element= {<SignIn />} />
+            <Route path={BASE_URL + "signin"} element= {<SignIn />} />
             <Route path={BASE_URL} element= {<Home />} />
             <Route path={BASE_URL+":category"} element= {<Categorized/>} />
             <Route path={BASE_URL+":category/:type/:movieId"} element= {<MoviePage/>} />

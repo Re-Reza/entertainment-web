@@ -34,6 +34,7 @@ function mapDispatchToProps(dispatch) {
 const ConnectedComponent = connect(mapStateToProps , mapDispatchToProps)
 (function(props){
     
+    console.log('home');
     const {setContent, movies, series } = props;
     const[state, setState] = useState({
         popularLoading : true,
