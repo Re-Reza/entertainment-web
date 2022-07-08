@@ -96,17 +96,7 @@
     justify-content: center; 
     align-items: center;  
 }
-@media screen and (max-width: 870px){
-    .home-popular{
-        padding : 0 2.5em
-    }
-    .home-popular-movies{
-        grid-column: 1/ -1 ;
-    }
-    .home-popular-series{
-        grid-column: 1/ -1 ;
-    }
-}
+
 /*---------------------- feature section-----------------------*/
 .home-feature-section {
     grid-column: 1/-1;
@@ -142,18 +132,6 @@
 }
 .yellow{
     color :#f9ad03
-}
-@media screen and (max-width:1000px){
-    .home-feature-section{
-        padding-right: 10px;
-        padding-left: 10px;
-        font-size: 13px;
-    }
-}
-@media screen and (max-width:770px){
-    .home-feature-section-itemsContainer{
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 /* --------------------------------common questions ----------------------------*/
@@ -206,6 +184,14 @@
     transform:rotate(45deg);
     color: rgb(255, 0, 0);
 }
+
+@media screen and (max-width:1000px){
+    .home-feature-section{
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+}
 @media screen and (max-width: 960px){
     .common-questions-container{
         width: 70%;
@@ -214,10 +200,46 @@
         grid-column: 1/ -1;
     }
 }
-@media screen and (max-width: 769px){
+@media screen and (max-width: 870px){
+    .home-popular{
+        padding : 0 2.5em
+    }
+    .home-popular-movies{
+        grid-column: 1/ -1 ;
+    }
+    .home-popular-series{
+        grid-column: 1/ -1 ;
+    }
+}
+@media screen and (max-width:770px){
+    .home-feature-section-itemsContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .home-sliderContainer{
+        background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/5fd505fa-f425-4a18-b3cc-00dd2638f541/1cf0ecb1-be06-4c3e-9dea-cb58a46d9642/GB-en-20220704-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .home-sliderContainer::after{
+        content:"";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top:0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .6);
+        background-image: radial-gradient(circle, rgba(0,0,0,0.1) 0%, rgba(0,0,0,.2) 100%) ;
+    }
     .common-questions-container{
         width: 80%;
         font-size: 14px;
+    }
+    .slider{
+        display: none;
     }
 }
 @media screen and (max-width: 565px){

@@ -8,7 +8,6 @@ export function TypeContainer(props) {
 
     const { categoryTitle, movies,category } = props.movieType;
     const persianCategoryTitle = convertToPersian(categoryTitle);
-    console.log(props.borderBottom)
     const typeObject = {
         persianCategoryTitle,
         categoryTitle
@@ -17,7 +16,9 @@ export function TypeContainer(props) {
         value: category,
         name: convertToPersian(category)
     }
-
+    /*
+        axios.post
+    */
     return (
         <article className="categoryContent-TypeContainer">
             {

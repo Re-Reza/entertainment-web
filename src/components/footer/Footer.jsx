@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { BASE_URL } from "../baseUrl";
 
 import "../../css/footer.css";
 
@@ -7,7 +8,7 @@ function Footer(){
 
     const {pathname} = useLocation();
     
-    if(pathname == '/signin'){
+    if(pathname == BASE_URL+'signin'){
         return <></>
     }
 

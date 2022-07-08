@@ -19,7 +19,7 @@
 .movieType-itemsContainer{
     display: grid;
     padding:1em 2em;
-    grid-template-columns: repeat(auto-fit,300px);
+    grid-template-columns: repeat(auto-fit,230px);
     grid-column-gap:1em;
     justify-content:center;
     grid-row-gap: 1em;

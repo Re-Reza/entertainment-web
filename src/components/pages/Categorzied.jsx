@@ -18,6 +18,7 @@ export function Categorized () {
     const {category} = useParams();
     
     useEffect(()=>{
+        document.title=convertToPersian(category);
         categorizedContent.get( category=='all'?".json":category+ ".json").then(response => {
             setState(previousState => ({
                 ...previousState,

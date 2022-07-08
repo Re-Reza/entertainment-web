@@ -30,10 +30,10 @@ function UserIcon(props){
 
     }, []);
 
-    const path = window.location.pathname
+    const path = window.location.pathname;
     return(
         <div className="user-icon-option-container">
-            <Link to={userName? BASE_URL+"dashboard" : BASE_URL+path.substring(1, path.length)}>
+            <Link to={userName? BASE_URL+"dashboard" :BASE_URL+path.substring(1, path.length)}>
                 <div className="user-icon-container">
                     <div className="user-icon-logo">
                         <i className="fa fa-user" aria-hidden="true"></i>

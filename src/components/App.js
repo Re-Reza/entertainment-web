@@ -24,7 +24,7 @@ function App() {
             <Route path={BASE_URL+":category/:type/:movieId"} element= {<MoviePage/>} />
             <Route path={BASE_URL+":category/:type"} element={<MovieTypes/>} />
             <Route path={BASE_URL+"dashboard"} element={<AccountDashboard/>} />
-            {/* <Route path="*" element ={<Page404/>} */}
+
           </Routes>
           <Footer/>
         </BrowserRouter>

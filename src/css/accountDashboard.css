@@ -103,16 +103,16 @@
 }
 .favorite-listItems-container{
     display:grid;
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-columns: repeat(auto-fit, 250px);
     grid-column-gap: 28px;
     justify-content:center;
     grid-row-gap: 28px;
-    grid-auto-rows: max-content;
+    grid-auto-rows: 280px;
 }
 .favorite-item{
     background-color:rgba(255, 255, 255, .6);
     color: #fff;
-    padding:1em;
+    padding:.7em;
     border-radius: 10px;
 }
 .favorite-item:hover .favorite-item-img{
@@ -120,7 +120,9 @@
 }
 .favorite-item-img{
     width: 100%;
-    object-fit: contain;
+    height: 225px;
+    object-fit:top;
+    object-fit: cover;
     border-radius: 10px;
     transition: all 0.5s
 }

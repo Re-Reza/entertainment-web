@@ -15,7 +15,6 @@ import {Loading2} from "../loading/Loading2";
 import "../../css/home.css"
 
 function mapStateToProps(state){
-    //console.log(state); //whole store
     return {
         movies : state.contentState.movies,
         series : state. contentState.series

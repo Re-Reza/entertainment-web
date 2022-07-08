@@ -93,31 +93,36 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)((props) 
     }
 
     function sendToUserFavorites(){
-        if(state.bookmarked){
-            const foundItem = favoriteList.find(item => item.movieId == movieId);
-            moviePageApi.delete(`users/${userId}/favoriteList/${foundItem.favoriteId}.json`)
-            .then(response =>{
-                console.log(response);
-                deleteFavoriteItem(foundItem.favoriteId)
-            })
-            .catch(error => console.log(error))
+        if(username != undefined && username!= null){
+            if(state.bookmarked){
+                const foundItem = favoriteList.find(item => item.movieId == movieId);
+                moviePageApi.delete(`users/${userId}/favoriteList/${foundItem.favoriteId}.json`)
+                .then(response =>{
+                    console.log(response);
+                    deleteFavoriteItem(foundItem.favoriteId)
+                })
+                .catch(error => console.log(error))
+            }
+            else{
+                const favoriteItem = {title, coverPic, category, type, movieId}
+                moviePageApi.post(`users/${userId}/favoriteList.json`,favoriteItem)
+                .then(()=>{
+                    addToFavoriteList(favoriteItem);
+                }).catch(err=>console.log(err));
+            }
         }
-        else{
-            const favoriteItem = {title, coverPic, category, type, movieId}
-            moviePageApi.post(`users/${userId}/favoriteList.json`,favoriteItem)
-            .then(()=>{
-                addToFavoriteList(favoriteItem);
-            }).catch(err=>console.log(err));
-        }
+        else
+            alert("لطفا ابتدا وارد حساب خود شوید")
     
     }
 
     function likeAndUnlike(value)
     {
-        const {isLoading, ...newData} = state;
+        const {isLoading, bookmarked,...newData} = state;
         newData.rate = state.rate + value;
         moviePageApi.put(`content/${category}/${type}/${movieId}.json`, newData)
         .then(response=>{
+            console.log(response)
             setState({
                 ...state,
                 rate: state.rate+value
