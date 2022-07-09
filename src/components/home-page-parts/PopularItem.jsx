@@ -8,7 +8,7 @@ export class PopularItem extends Component {
         const {coverPic, title, rate, category, type, id} = this.props.item;
         return(
             <div className="popular-item">
-                <Link target="_blank" to={`${BASE_URL}${category}/${type}/${id}`}>
+                <Link to={`${BASE_URL}${category}/${type}/${id}`}>
                     <div className="popular-item-container">
                             <img className="popular-item-img" src={coverPic} alt={title}/>
                         </div>

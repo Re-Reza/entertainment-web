@@ -67,7 +67,7 @@ export function MainPart(props){
                     >
                         {
                             favoriteList.map((item, index) => {
-                                const {category, type, movieId} = item
+                                const {category, type, movieId} = item;
                                 return <SwiperSlide key={index}>
 
                                     <Link to={`${BASE_URL}${category}/${type}/${movieId}`}>
