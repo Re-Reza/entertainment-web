@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/entertainment-web/static/css/main.53c5b811.css",
-    "main.js": "/entertainment-web/static/js/main.ef2bae27.js",
+    "main.js": "/entertainment-web/static/js/main.08b0e1ae.js",
     "static/js/787.ec704a7a.chunk.js": "/entertainment-web/static/js/787.ec704a7a.chunk.js",
     "static/media/g2.jpg": "/entertainment-web/static/media/g2.4015a1b3f3a441c07c6c.jpg",
     "static/media/7.jpg": "/entertainment-web/static/media/7.b8c76bba2826ea2a1539.jpg",
@@ -26,11 +26,11 @@
     "static/media/Vazir-Thin.woff2": "/entertainment-web/static/media/Vazir-Thin.0058a1b73ae7100d1351.woff2",
     "index.html": "/entertainment-web/index.html",
     "main.53c5b811.css.map": "/entertainment-web/static/css/main.53c5b811.css.map",
-    "main.ef2bae27.js.map": "/entertainment-web/static/js/main.ef2bae27.js.map",
+    "main.08b0e1ae.js.map": "/entertainment-web/static/js/main.08b0e1ae.js.map",
     "787.ec704a7a.chunk.js.map": "/entertainment-web/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53c5b811.css",
-    "static/js/main.ef2bae27.js"
+    "static/js/main.08b0e1ae.js"
   ]
 }
